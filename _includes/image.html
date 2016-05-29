@@ -1,0 +1,8 @@
+<div class="image-block {{ include.class }}">
+	<a class="fancybox" alt="{{ include.title }}" title="{{ include.title }}" rel="page" href="{% if include.target %}{{ include.target }}{% else %}{{ site.url }}/assets/img/{{ include.file }}{% endif %}" >
+		<img src="{{ site.url }}/assets/img/{{ include.file }}" />
+	</a>
+  {% if include.title %}
+    <small class="caption {{ include.class }}">{{ include.title | markdownify | remove: '<p>' | remove: '</p>' }} {% if include.link %}<a href="{{ include.link }}">{{ include.source }}</a>{% endif %}</small>
+  {% endif %}
+</div>

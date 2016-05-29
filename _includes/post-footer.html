@@ -1,0 +1,18 @@
+<div class="post-footer">
+  {% if page.categories %}
+    <p class="title">Categories</p>
+    <ul class="category-list">
+      {% for category in page.categories %}
+        <li><a href="{{ site.url }}/archive?search={{ category }}">{{ category }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% if page.tags %}
+    <p class="title">Tags</p>
+    <ul class="tag-list">
+      {% for tag in page.tags %}
+        <li><a href="{{ site.url }}/archive?search={{ tag }}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

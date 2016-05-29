@@ -1,0 +1,10 @@
+---
+layout: post
+title: 'A Beautiful Cosmic Microwave Background Viewer'
+categories: [technology]
+tags: [science, planck, cosmology]
+link: http://thecmb.org/
+banner: cmb-viewer.png
+---
+
+Check out this beautiful and entertaining visualization of the [Planck](http://www.rssd.esa.int/index.php?project=planck) [Cosmic Microwave Background](http://en.wikipedia.org/wiki/Cosmic_microwave_background_radiation) results by [Damien P. George](http://dpgeorge.net/) of Cambridge University.

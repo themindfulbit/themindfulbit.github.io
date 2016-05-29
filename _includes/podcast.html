@@ -1,0 +1,15 @@
+<aside class="product podcast {{ include.class }}">
+  <a class="fancybox" alt="{{ include.name }}" title="{{ include.name }}" rel="page" href="{{ site.url }}/assets/img/{{ include.image }}" >
+      <img class="album-art" src="{{ site.url }}/assets/img/{{ include.image }}" />
+  </a>
+  <ul class="details">
+    <li class="name"><a href="{{ include.site }}">{{ include.name }}</a></li>
+    <li class="description">{{ include.description }}</li>
+    {{ if include.site }}
+      <li class="link"><a href="{{ include.site }}">{{ include.site }}</a></li>
+    {{ endif }}
+    {{ if include.itunes }}
+      <li class="link"><a href="{{ include.itunes }}">iTunes</a></li>
+    {{ endif }}
+  </ul>
+</aside>

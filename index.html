@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    {% for post in site.posts limit:1 %}
+
+    <div class="post">
+
+      <div class="post-banner">
+        {% if post.banner %}
+          {% if post.link %}
+            <a href="{{ post.link }}">
+              <img class="banner-image" src="{{ site.url }}/assets/img/{{ post.banner }}" />
+            </a>
+            {% if post.caption %}
+              <p class="banner-caption">{{ post.caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% else %} <!-- If No Caption -->
+              <p class="banner-caption"></p> <!-- Spacer -->
+            {% endif %}
+          {% else %} <!-- If Not Link Post -->
+            <a href="{{site.url }}{{ post.url }}">
+              <img class="banner-image" src="{{ site.url }}/assets/img/{{ post.banner }}" />
+            </a>
+            {% if post.caption %}
+              <p class="banner-caption">{{ post.caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% else %} <!-- If No Caption -->
+              <p class="banner-caption"></p> <!-- Spacer -->
+            {% endif %}
+          {% endif %}
+        {% else %} <!-- If No Banner -->
+
+        {% endif %}
+      </div>
+
+      <div class="post-header">
+        {% if post.link %}
+          <h1 class="post-title"><a href="{{ post.link }}">{{ post.title }}&nbsp;&rArr;</a></h1>
+        {% else %}
+          <h1 class="post-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+        {% endif %}
+
+        <p class="post-meta">
+          <span class="date">{{ post.date | date: "%B %-d, %Y" }}&nbsp;</span><span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>{% if post.author %}<span class="author">&nbsp;By <a href="{{ site.url }}/archive?search={{ post.author }}">{{ post.author }}</a></span>{% endif %}
+        </p>
+      </div>
+
+      <div class="post-content">
+        {{ post.content }}
+      </div>
+
+      <div class="post-footer">
+        {% if post.categories %}
+          <p class="title">Categories</p>
+          <ul class="category-list">
+            {% for category in post.categories %}
+              <li><a href="{{ site.url }}/archive?search={{ category }}">{{ category }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if post.tags %}
+          <p class="title">Tags</p>
+          <ul class="tag-list">
+            {% for tag in post.tags %}
+              <li><a href="{{ site.url }}/archive?search={{ tag }}">{{ tag }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+
+    {% endfor %}
+
+</div>
+
+{% include recent.html %}
+{% include meta.html %}

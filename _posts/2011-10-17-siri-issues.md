@@ -1,0 +1,10 @@
+---
+layout: post
+title: 'Siri Issues'
+date: '2011-10-17'
+time: '11:42 AM'
+description:
+categories: [technology]
+tags: [iphone, siri, apple]
+---
+If these network connectivity issues persist, they'll really put a dent in how much people trust (and therefore use) Siri.

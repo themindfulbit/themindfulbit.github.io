@@ -1,0 +1,39 @@
+<div class="post-banner">
+
+  {% if page.banner %}
+    {% if page.link %}
+      <a href="{{ page.link }}">
+        <img class="banner-image" src="{{ site.url }}/assets/img/{{ page.banner }}" />
+      </a>
+      {% if page.caption %}
+        <p class="banner-caption">{{ page.caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% else %} <!-- If No Caption -->
+        <p class="banner-caption"></p> <!-- Spacer -->
+      {% endif %}
+    {% else %} <!-- If Not Link Post -->
+      <a href="{{site.url }}{{ page.url }}">
+        <img class="banner-image" src="{{ site.url }}/assets/img/{{ page.banner }}" />
+      </a>
+      {% if page.caption %}
+        <p class="banner-caption">{{ page.caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% else %} <!-- If No Caption -->
+        <p class="banner-caption"></p> <!-- Spacer -->
+      {% endif %}
+    {% endif %}
+  {% else %} <!-- If No Banner -->
+
+  {% endif %}
+</div>
+
+<div class="post-header">
+
+  {% if page.link %}
+    <h1 class="post-title"><a href="{{ page.link }}">{{ page.title }}&nbsp;&rArr;</a></h1>
+  {% else %}
+    <h1 class="post-title"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+  {% endif %}
+
+  <p class="post-meta">
+    <span class="date">{{ page.date | date: "%B %-d, %Y" }}&nbsp;</span><span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>{% if page.author %}<span class="author">&nbsp;By <a href="{{ site.url }}/archive?search={{ page.author }}">{{ page.author }}</a></span>{% else %}<span class="author">&nbsp;By <a href="{{ site.url }}/archive?search=Erik">Erik Hess</a></span>{% endif %}
+  </p>
+</div>

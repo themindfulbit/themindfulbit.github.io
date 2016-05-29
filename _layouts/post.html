@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="post">
+
+  {% include post-header.html %}
+
+  <div class="post-content">
+    {{ content }}
+
+    {% if page.link %}
+      <div class="permalink">
+        <a href="{{ site.url }}{{ page.url }}">
+          <span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>
+        </a>
+      </div>
+    {% endif %}
+  </div>
+
+  {% include post-footer.html %}
+  {% include pagination.html %}
+
+</div>

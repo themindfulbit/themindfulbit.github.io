@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<rss version="2.0"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	 xmlns:admin="http://webns.net/mvcb/"
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+	   <channel>
+      <title><![CDATA[high90]]></title>
+      <link>http://high90.com/</link>
+      <description>Development, Technology, Design and Ideas from high90</description>
+      <dc:language>en</dc:language>
+      <dc:creator>admin@high90.com</dc:creator>
+      <dc:rights>Copyright 2015</dc:rights>
+      <dc:date>2015-10-26T10:29:38-07:00</dc:date>
+      <webMaster>erik@high90.com (Erik Hess)</webMaster>
+      <copyright>Copyright 2015</copyright>
+      <ttl>30</ttl>
+
+               <item>
+         <title><![CDATA[014 - Electronic Rapture]]></title>
+         <author><![CDATA[Erik Hess, Bob VanderClay, and Mark VanderClay]]></author>
+         <link>
+                           http://high90.com/high90cast/014-electronic-rapture
+                     </link>
+         <guid>
+                           http://high90.com/high90cast/014-electronic-rapture
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-10-23T16:00:00-07:00</dc:date>
+         <dc:subject><![CDATA[high90cast]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/cat-radio-r-w1024-q100-m1445636233.jpg"/></div>]]><![CDATA[<div class="high90cast-meta"><div class="player"><iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/19119?style=dark' width='100%'></iframe></div><div class="links"><a href="http://simplecast.fm/podcasts/1067/rss">Subscribe</a> :: <a href="http://audio.simplecast.fm/19119.mp3" title="high90cast 014 - Electronic Rapture">Download</a> :: <a id="huffduffer">Huffduff It</a> :: <a href="https://simplecast.fm/s/6eb7e3a8">Twitter-friendly Link</a></div></div>]]><![CDATA[Erik stays mobile. Mark takes a Charter. Bob likes being free.]]><![CDATA[<p>The guys pretend they have an electronic apocalypse and get $2,000 to buy devices, services, and accessories to start over from scratch and build a new web app. Here are their choices:</p>
+
+<h2>Erik&#8217;s Selections</h2>
+
+<h3>Devices</h3>
+
+<ul>
+<li><a href="http://www.amazon.com/Toshiba-CB35-B3340-Chromebook-Celeron-HD-Screen/dp/B00N99FXIS/ref=sr_1_2?s=pc&amp;ie=UTF8&amp;qid=1443106289&amp;sr=1-2&amp;keywords=toshiba+chromebook+2">Toshiba Chromebook 2 with Haswell-era Celeron</a></li>
+<li><a href="https://www.motorola.com/us/motomaker?pid=FLEXR4&amp;action=designNew#memory">Moto G with 16GB</a></li>
+</ul>
+
+<h3>Services</h3>
+
+<ul>
+<li><a href="http://www.t-mobile.com/cell-phone-plans/individual.html">T-mobile Unlimited - 7GB tethering</a></li>
+<li><a href="https://www.digitalocean.com/pricing/">Digital Ocean - $5/mo</a></li>
+</ul>
+
+<h3>Accessories</h3>
+
+<ul>
+<li>Phone SD - <a href="http://www.amazon.com/SanDisk-Memory-Adapter--SDSDQUAN-032G-G4A-Version/dp/B00M55C0NS/ref=sr_1_1?s=pc&amp;ie=UTF8&amp;qid=1443106902&amp;sr=1-1&amp;keywords=micro+sd+card">SanDisk 32GB</a></li>
+<li>Laptop SD - <a href="http://www.amazon.com/SanDisk-Memory-Adapter--SDSDQUAN-032G-G4A-Version/dp/B00M55C0NS/ref=sr_1_1?s=pc&amp;ie=UTF8&amp;qid=1443106902&amp;sr=1-1&amp;keywords=micro+sd+card">SanDisk 128GB</a></li>
+<li>Mouse - <a href="http://www.amazon.com/Logitech-Bluetooth-Mouse-Windows-Tablets/dp/B00JUHDYSO/ref=sr_1_1?s=pc&amp;ie=UTF8&amp;qid=1443107282&amp;sr=1-1&amp;keywords=logitech+bluetooth+mouse">Logitech M557</a></li>
+</ul>
+
+<h2>Mark&#8217;s Selections</h2>
+
+<h3>Devices</h3>
+
+<ul>
+<li><a href="http://www.apple.com/shop/buy-mac/macbook-air?product=MJVE2LL/A&amp;step=config#">Refurbished 13&#8221; MacBook Air</a></li>
+<li><a href="https://www.asus.com/us/Tablets/Nexus_7_2013/">2013 Nexus 7</a></li>
+</ul>
+
+<h3>Services</h3>
+
+<ul>
+<li><a href="https://www.charter.com/browse/content/internet">Charter Cable Internet</a></li>
+<li><a href="http://www.t-mobile.com/cell-phone-plans/mobile-internet.html">T-mobile 1GB plan</a></li>
+<li><a href="https://www.digitalocean.com/pricing/">Digital Ocean $10/mo</a></li>
+</ul>
+
+<h2>Bob&#8217;s Selections</h2>
+
+<h3>Devices</h3>
+
+<ul>
+<li><a href="http://www.apple.com/shop/product/FJVM2LL/A/refurbished-116-inch-macbook-air-16ghz-dual-core-intel-core-i5">Refurbished 11&#8221; MacBook Air</a></li>
+<li><a href="http://www.motorola.com/us/products/moto-x-pure-edition">2015 Moto X</a></li>
+</ul>
+
+<h3>Services</h3>
+
+<ul>
+<li><a href="https://aws.amazon.com/pricing/">Amazon Web Services Starter Plan</a></li>
+<li><a href="https://www.atlassian.com/software/bitbucket">Bitbucket</a></li>
+</ul>]]></description>
+         </item>
+               <item>
+         <title><![CDATA[Comments Enabled]]></title>
+         <author><![CDATA[Erik Hess]]></author>
+         <link>
+                           http://high90.com/blog/comments-enabled
+                     </link>
+         <guid>
+                           http://high90.com/blog/comments-enabled
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-10-22T09:30:00-07:00</dc:date>
+         <dc:subject><![CDATA[news]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/megaphone-r-w1024-q100-m1445532165.jpg"/></div>]]><![CDATA[<p>We&#8217;ve decided to add comments to our site via <a href="http://disqus.com">Disqus</a>.</p>
+
+<p>I know&#8230; I can hear you now:</p>
+
+<p><em>Wait&#8230; what?!</em></p>
+
+<p>So why did we do it? It&#8217;s pretty simple, really.</p>
+
+<p>First, we like you. We think you&#8217;re a smart person with an adult level of self-control. We want to hear what you think about the stuff we write and talk about on our site and our podcast.</p>
+
+<p class="has-pullquote" data-pullquote="We think you're a smart person">Second, we feel confident enough in the control Disqus gives us that moderation is an achievable goal. <a href="http://twitter.com/macdrifter">Gabe Weatherhead</a> has managed to have a solid and productive comments section for years at <a href="http://macdrifter.com">Macdrifter</a>. He continues to be an inspiration to all of us.</p>
+
+<p>Third, we wanted a way to expand on each post in context, and with less friction than writing a whole new post.</p>
+
+<p>So why Disqus?</p>
+
+<p>We use <a href="http://statamic.com">Statamic</a> as our CMS. It&#8217;s fantastic and offers a nice balance of static and dynamic features. The one thing it doesn&#8217;t currently offer is native comments. It does offer great support for Disqus via a first-party plugin, so we&#8217;ve gone there. It seemed like a better choice than changing the whole CMS.</p>
+
+<p>We&#8217;ve got some great stuff ahead of us. We&#8217;re excited to share it with you and hear what you think about it.</p>
+
+<p>Thanks for listening, and talk to you soon.</p>]]></description>
+         </item>
+               <item>
+         <title><![CDATA[Why Publish]]></title>
+         <author><![CDATA[Bob VanderClay]]></author>
+         <link>
+                           http://high90.com/blog/why-publish
+                     </link>
+         <guid>
+                           http://high90.com/blog/why-publish
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-09-29T16:00:00-07:00</dc:date>
+         <dc:subject><![CDATA[ideas]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/paper-r-w1024-q100-m1443566883.jpg"/></div>]]><![CDATA[<p>This post started off titled <em>Why Write?</em> but that really wasn&#8217;t interesting to me. I write all the time, and more importantly, I know why I write. Writing forces me to give shape to my ideas and thoughts. Even when I can&#8217;t put words to paper, I&#8217;ll talk out loud to myself.</p>
+
+<aside class="right">
+
+<blockquote>
+  <p>Language serves not only to express thought but to make possible thoughts which could not exist without it.</p>
+  
+  <p>&ndash; Bertrand Russell</p>
+</blockquote>
+
+</aside>
+
+<p>No, writing isn&#8217;t a problem. What I&#8217;m not doing is <em>publishing</em>.</p>
+
+<p>It&#8217;s taken a lot of thought&#8212;and many drafts&#8212;to get here, a place where I can articulate the disconnect.</p>
+
+<p>It&#8217;s not as simple as words giving form to my thoughts. It&#8217;s bidirectional. Words don&#8217;t just <em>give shape</em> to my thoughts, they <em>actually shape</em> them. Writing reprograms me. I am changed.</p>
+
+<p>This presents a problem. Whatever challenge I was facing, no longer presents a problem. The changes to my mind won&#8217;t even allow me to see the challenge in the first place. And why would I ever share such an obvious idea with the world?</p>
+
+<p>The impossible, achieved, is no longer impossible. I can&#8217;t help but feel that success somehow diminishes my accomplishments. That&#8217;s an unproductive and dangerous direction of thought.</p>
+
+<p>Fortunately, writing is not the only way to reprogram one&#8217;s mind. Reading has the same effect. I am privileged to live in a time where it&#8217;s never been easier for anyone to make themselves heard.</p>
+
+<p>Every day I come across at least one article, story, or post that makes me think differently. Perhaps I might do the same.</p>
+
+<p>And <em>that&#8217;s</em> why I will publish.</p>]]></description>
+         </item>
+               <item>
+         <title><![CDATA[013 - Air Maze]]></title>
+         <author><![CDATA[Erik Hess, Bob VanderClay, and Mark VanderClay]]></author>
+         <link>
+                           http://high90.com/high90cast/013-air-maze
+                     </link>
+         <guid>
+                           http://high90.com/high90cast/013-air-maze
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-09-11T12:00:00-07:00</dc:date>
+         <dc:subject><![CDATA[high90cast]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/air-maze-r-w1024-q100-m1441988360.jpg"/></div>]]><![CDATA[<div class="high90cast-meta"><div class="player"><iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/17129?style=dark' width='100%'></iframe></div><div class="links"><a href="http://simplecast.fm/podcasts/1067/rss">Subscribe</a> :: <a href="http://audio.simplecast.fm/17129.mp3" title="high90cast 013 - Air Maze">Download</a> :: <a id="huffduffer">Huffduff It</a> :: <a href="https://simplecast.fm/s/d7c2fa31">Twitter-friendly Link</a></div></div>]]><![CDATA[Erik looks for an emerald. Mark sells early. Bob wants a mirror.]]><![CDATA[<ul>
+<li><a href="https://appsto.re/us/gXa_q.i">Emerald Chronometer</a></li>
+<li><a href="../assets/img/mauna-kea.jpg">Mauna Kea</a></li>
+</ul>]]></description>
+         </item>
+               <item>
+         <title><![CDATA[Shadows on a Wall]]></title>
+         <author><![CDATA[Erik Hess]]></author>
+         <link>
+                           http://high90.com/blog/shadows-on-a-wall
+                     </link>
+         <guid>
+                           http://high90.com/blog/shadows-on-a-wall
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-09-09T16:00:00-07:00</dc:date>
+         <dc:subject><![CDATA[ideas]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/projector-r-w1024-q100-m1441839789.jpg"/></div>]]><![CDATA[<p>It’s September again.</p>
+
+<p>Like I have each fall for about a decade, today I sat in the office surrounded by friends and fellow tech geeks, watching another beautifully executed Apple event evolve to its logical conclusion. Just like every year, I wondered how they continue to make so many amazing products. Once again, I want them all (well, maybe not that Rose-colored Apple Watch Sport).</p>
+
+<p>Looking at the audience, I realized that at some point and to a greater or lesser degree I’ve been everyone in that room.</p>
+
+<p>I’ve been an unabashed fan of Apple products specifically and technology in general&mdash;stunned and delighted at how their devices get better and smaller without fail, every year. I’ve been a writer and podcaster, looking at how those devices can improve lives, save time, and build cool things. I’ve been a creator, part of a team making a product that I desperately hope its users love as much as I do. I’ve been a presenter, pitching a customer on how my team’s product will solve their problems, save them time, and make their jobs easier.</p>
+
+<p>Another year, and another set of beautiful images sliding by on the wall of a very large room. Another year of me sitting and watching as images of those images and the people watching them slide by on a much smaller screen, in our much smaller room here at high90 HQ.</p>
+
+<p>At one point during today’s event I realized that I’d forgotten about one group. It’s a group I’ve never been a part of. As soon as I noticed that group, I knew it was the group I really wanted to belong to all these years.</p>
+
+<p><em>I want to be one of the happy people on the wall.</em></p>
+
+<p>I want to go about my life and not care one bit more about what piece of technology I&#8217;m using to capture the moment than I care about what kind of shoes I wear. I want to just take a video of my kid, laugh with him, then throw my device back in my pocket and forget about it. I don’t want to think about that video until we decide to laugh at it again ten years later. I want to be too busy to remember to charge my devices at night. I want to not even realize that they’re completely out of juice until well into the next day because I was too busy just… living.</p>
+
+<p>Instead I’m sitting here tied to a chair, in a cave, watching shadows on a wall. It’s a beautiful cave. I decorated it. I picked the chair. I tied the ropes.</p>
+
+<p>I want untie those ropes, stand up, turn around, and walk out of the cave. I know the shadows on the wall aren’t real, but maybe they represent something that is.</p>
+
+<p>I want to see what’s making those shadows and maybe start making some myself.</p>
+
+<p>If anyone’s looking for me I’ll be outside.</p>]]></description>
+         </item>
+               <item>
+         <title><![CDATA[The Challenge]]></title>
+         <author><![CDATA[Bob VanderClay]]></author>
+         <link>
+                           http://high90.com/blog/the-challenge
+                     </link>
+         <guid>
+                           http://high90.com/blog/the-challenge
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-09-03T16:00:00-07:00</dc:date>
+         <dc:subject><![CDATA[technology]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/pig-n-whistle-r-w1024-q100-m1441320215.jpg"/></div>]]><![CDATA[<p>Last week, Erik proposed a challenge:</p>
+
+<p><em>I must review each and every item I intend to sell on eBay.</em></p>
+
+<p>A little out of spite, but mostly because I think it’s a great idea, I am accepting the challenge, but if I’m honest, I’m terrified. I have a really hard time with reviews.</p>
+
+<p>It all started six or seven years ago. At that time, I was working with a programmer&mdash;I’ll call him Sal&mdash;who had what most would call a horrible sense of design. Now, that isn’t atypical of software developers. Software development and graphic design are incredibly specialized and complicated skills, and it’s rare that someone would be skilled in both. Even if one did, project deadlines rarely allow for such efforts.</p>
+
+<p>Deadlines weren’t Sal’s concern, however. He never met a milestone, or delivered anything on time. When I did a little more digging, I was shocked to find out why. He was spending the vast majority of his time on the design.</p>
+
+<p>Sal’s designs&mdash;a laundry list of bad design cliches&mdash;weren’t the unfortunate outcome of resource constraints, they were the product of countless hours of hard work. It was intentional. He <em>liked</em> it.</p>
+
+<p>After one of the hardest discussions I’ve had&mdash;explaining why he might need to leave the design work to the designers&mdash;I knew I wouldn’t look the same way at anyone’s work again. No matter what, someone who puts effort into making something deserves better than &#8220;It’s ugly&#8221;.</p>
+
+<p>And that’s what bothers me about reviews today. It’s easier to be snarky. Snarky fits into Twitter. Snarky gets page views.</p>
+
+<p>I can’t promise I’m going to write good reviews. They certainly won’t be objective. But I think I can say something better than, it’s ugly.</p>
+
+<h5>Afterword</h5>
+
+<p>The guys at <a href="https://medium.com/design-explosion">Design Explosions</a> seem to have the same idea. Couldn’t agree more with their <a href="https://medium.com/design-explosion/introducing-design-explosions-e564dea4d435">introductory post</a>.</p>]]></description>
+         </item>
+               <item>
+         <title><![CDATA[012 - Find the Strapmaker]]></title>
+         <author><![CDATA[Erik Hess, Bob VanderClay, and Mark VanderClay]]></author>
+         <link>
+                           http://high90.com/high90cast/012-find-the-strapmaker
+                     </link>
+         <guid>
+                           http://high90.com/high90cast/012-find-the-strapmaker
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-08-28T16:00:00-07:00</dc:date>
+         <dc:subject><![CDATA[high90cast]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/bag-r-w1024-q100-m1440800656.jpg"/></div>]]><![CDATA[<div class="high90cast-meta"><div class="player"><iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/16152?style=dark' width='100%'></iframe></div><div class="links"><a href="http://simplecast.fm/podcasts/1067/rss">Subscribe</a> :: <a href="http://audio.simplecast.fm/16152.mp3" title="high90cast 012 - Find the Strapmaker">Download</a> :: <a id="huffduffer">Huffduff It</a> :: <a href="https://simplecast.fm/s/31638956">Twitter-friendly Link</a></div></div>]]><![CDATA[Bob enters the Matrix. Erik isn't worried about magnets anymore. Mark gets mad over a stripped screw.]]><![CDATA[<ul>
+<li><a href="http://www.maxpedition.com/store/pc/Testudo-Laptop-Backpack-Large-p1902.htm">Maxpedition Testudo</a></li>
+<li><a href="http://www.goruck.com/gr0-black-/p/GEAR-000065">GORUCK GR0</a></li>
+<li><a href="http://solobagging.com/2014/07/07/gear-review-day-trek-osprey-comet/">2014 Osprey Comet 28L</a></li>
+</ul>
+
+<p><div class="image-block ">
+	<a class="fancybox" alt="Bob&#8217;s Bag Matrix" title="Bob&#8217;s Bag Matrix" rel="page" href="http://high90.com/assets/img/bag-matrix.png" >
+		<img src="http://high90.com//assets/img/resized/bag-matrix-r-w1200-q100-m1440800656.png" />
+	</a>
+</div>
+<small class="caption ">
+	<p>Bob&#8217;s Bag Matrix </p>
+</small>
+</p>
+
+<p><div class="image-block ">
+	<a class="fancybox" alt="Left to right - Bob&#8217;s Testudo, Mark&#8217;s GR0, Erik&#8217;s Comet" title="Left to right - Bob&#8217;s Testudo, Mark&#8217;s GR0, Erik&#8217;s Comet" rel="page" href="http://high90.com/assets/img/the-bags.jpg" >
+		<img src="http://high90.com//assets/img/resized/the-bags-r-w1200-q100-m1440800848.jpg" />
+	</a>
+</div>
+<small class="caption ">
+	<p>Left to right - Bob&#8217;s Testudo, Mark&#8217;s GR0, Erik&#8217;s Comet </p>
+</small>
+</p>]]></description>
+         </item>
+               <item>
+         <title><![CDATA[011 - Dead Air]]></title>
+         <author><![CDATA[Erik Hess, Bob VanderClay, and Mark VanderClay]]></author>
+         <link>
+                           http://high90.com/high90cast/011-dead-air
+                     </link>
+         <guid>
+                           http://high90.com/high90cast/011-dead-air
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-08-14T12:00:00-07:00</dc:date>
+         <dc:subject><![CDATA[high90cast]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/artist-and-subject-r-w1024-q100-m1439572536.jpg"/></div>]]><![CDATA[<div class="high90cast-meta"><div class="player"><iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/15331?style=dark' width='100%'></iframe></div><div class="links"><a href="http://simplecast.fm/podcasts/1067/rss">Subscribe</a> :: <a href="http://audio.simplecast.fm/15331.mp3" title="high90cast 011 - Dead Air">Download</a> :: <a id="huffduffer">Huffduff It</a> :: <a href="https://simplecast.fm/s/8bb990ee">Twitter-friendly Link</a></div></div>]]><![CDATA[Bob visits an old friend. Erik is in a time crunch. Mark is at a loss for words.]]><![CDATA[<ul>
+<li><a href="https://helpx.adobe.com/creative-cloud/faq.html">Adobe Creative Cloud FAQ</a></li>
+</ul>]]></description>
+         </item>
+               <item>
+         <title><![CDATA[010 - Defending Libre]]></title>
+         <author><![CDATA[Erik Hess, Bob VanderClay, and Mark VanderClay]]></author>
+         <link>
+                           http://high90.com/high90cast/010-defending-libre
+                     </link>
+         <guid>
+                           http://high90.com/high90cast/010-defending-libre
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-08-07T12:00:00-07:00</dc:date>
+         <dc:subject><![CDATA[high90cast]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/selective-service-r-w1024-q100-m1438971737.jpg"/></div>]]><![CDATA[<div class="high90cast-meta"><div class="player"><iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/15137?style=dark' width='100%'></iframe></div><div class="links"><a href="http://simplecast.fm/podcasts/1067/rss">Subscribe</a> :: <a href="http://audio.simplecast.fm/15137.mp3" title="high90cast 010 - Defending Libre">Download</a> :: <a id="huffduffer">Huffduff It</a> :: <a href="https://simplecast.fm/s/5bf53d1e">Twitter-friendly Link</a></div></div>]]><![CDATA[Erik has big news. Bob loses something, then finds it again. Mark is waiting.]]><![CDATA[<ul>
+<li><a href="https://youtu.be/i0W852wflMA?t=32">A Little Known, Seldom Used, Reserve Activation Clause</a></li>
+</ul>]]></description>
+         </item>
+               <item>
+         <title><![CDATA[Trees]]></title>
+         <author><![CDATA[Erik Hess]]></author>
+         <link>
+                           http://high90.com/blog/trees
+                     </link>
+         <guid>
+                           http://high90.com/blog/trees
+                     </guid>
+         <category>article</category>
+         <dc:date>2015-08-06T12:00:00-07:00</dc:date>
+         <dc:subject><![CDATA[ideas]]></dc:subject>
+         <description><![CDATA[<div><img src="http://high90.com//assets/img/resized/fallon-tree-r-w1024-q100-m1438885947.jpg"/></div>]]><![CDATA[<p>I have a thing for trees.</p>
+
+<p>There&#8217;s something great about sitting outside under a big tree on a breezy day. It seems inaccessible, an island of calm unaffected by the clamor of daily life.</p>
+
+<p>There&#8217;s a small memorial park just outside the base in Fallon that&#8217;s unfailingly empty. It&#8217;s a simple place&mdash;just a few picnic benches, a couple clumps of trees, and a gravel parking lot.</p>
+
+<p>One of the big trees at the park grew a little ways from the others. When I spend the day in Fallon and get a moment free, I like to enjoy its shade while I read or write. I&#8217;m sitting there right now in fact&mdash;enjoying the  wind in the leaves, the cars wooshing by, and the occasional screams of a few dozen fighters as they depart overhead for the basin and range to the east.</p>
+
+<p><div class="image-block ">
+	<a class="fancybox" alt="My favorite tree in Key West" title="My favorite tree in Key West" rel="page" href="http://high90.com/assets/img/key-west-tree.jpg" >
+		<img src="http://high90.com//assets/img/resized/key-west-tree-r-w1200-q100-m1438885947.jpg" />
+	</a>
+</div>
+<small class="caption ">
+	<p>My favorite tree in Key West </p>
+</small>
+</p>
+
+<p>Another of my favorite trees lives by the Navy Visitors Quarters in Key West. It grew in a grassy field by the water near a defunct  cul-de-sac, an old hangar, and some ancient ramps that haven&#8217;t seen a seaplane in over a half-century.</p>
+
+<p><div class="image-block right">
+	<a class="fancybox" alt="Naval seaplanes like this Catalina were pulled from the water via ramps" title="Naval seaplanes like this Catalina were pulled from the water via ramps" rel="page" href="http://high90.com/assets/img/catalina-ramp.jpg" >
+		<img src="http://high90.com//assets/img/resized/catalina-ramp-r-w1200-q100-m1438885947.jpg" />
+	</a>
+</div>
+<small class="caption right">
+	<p>Naval seaplanes like this Catalina were pulled from the water via ramps </p>
+</small>
+</p>
+
+<p>I used to visit Key West occasionally for training, and it was fun to hang out under that tree and read about philosophy, architecture, or art from second-hand titles I dug up in an out-of-the-way bookstore just off Duval Street. The seaside location seemed to demand weighty topics, so who was I to argue?</p>
+
+<p>Over the last couple of years, I&#8217;ve had fewer of these moments, despite (or maybe because of) working from my own home for patient clients who live a continent away.</p>
+
+<p>The challenge is <em>busy</em>-ness. Hollow productivity comes easily when email and chat are at your fingertips. Quiet places where you can hear yourself think over the din of the internet are more precious than ever.</p>
+
+<p>In an age of ubiquitous connectivity, peace is found wherever we allow ourselves to find it&ndash;even if it&#8217;s under the departure end of Runway 31&nbsp;Left, just beyond the gates of Naval Air Station Fallon, Nevada.</p>]]></description>
+         </item>
+      
+   </channel>
+
+
+</rss>

@@ -1,0 +1,35 @@
+<h2 class="pagination-header">Nearby Posts</h2>
+
+<div class="pagination">
+  {% if page.next.url %}
+    <div class="post blue prev">
+      <a href="{{ page.next.url }}" class="newer">
+        <div class="key">Newer</div>
+        <div class="title">{{ page.next.title }}</div>
+      </a>
+    </div>
+  {% else %}
+    <div class="post blue prev none">
+      <a href="" class="newer">
+        <div class="key"></div>
+        <div class="title"></div>
+      </a>
+    </div>
+  {% endif %}
+
+  {% if page.previous.url %}
+    <div class="post red next">
+      <a href="{{ page.previous.url }}" class="older">
+        <div class="key">Older</div>
+        <div class="title">{{ page.previous.title }}</div>
+      </a>
+    </div>
+  {% else %}
+    <div class="post red next none">
+      <a href="" class="older">
+        <div class="key"></div>
+        <div class="title"></div>
+      </a>
+    </div>
+  {% endif %}
+</div>

@@ -1,0 +1,26 @@
+---
+layout: page
+permalink: /archive
+title: Archive
+---
+
+<div id="archive">
+  <input class="search" placeholder="Search" name="search" />
+  <ul class="archive-list list">
+    {% for post in site.posts %}
+      <li class="archive-item">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <div class="item-core">
+            <span class="post-title">{{ post.title }}</span>
+            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          </div>
+          <div class="item-metadata">
+            <p class="taxonomy author">{{ post.author }}</p>
+            <p class="taxonomy categories">{{ post.categories | array_to_sentence_string }}</p>
+            <p class="taxonomy tags">{{ post.tags | array_to_sentence_string }}</p>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
