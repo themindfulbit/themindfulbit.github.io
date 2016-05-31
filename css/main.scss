@@ -1225,7 +1225,7 @@ body {
 /* @media screen and (min-width: 1280px) */
 @media screen and (min-width: 80em) {
 
-  // @include baseline-grid(28);
+  @include baseline-grid(28);
 
   body #wrapper {
     width: 1280px;
