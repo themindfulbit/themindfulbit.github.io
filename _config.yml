@@ -17,7 +17,7 @@ url: "http://themindfulbit.github.io" # the base hostname & protocol for your si
 twitter_username: themindfulbit
 github_username:  themindfulbit
 permalink: /blog/:title
-gems: [jekyll-paginate, jekyll-gist, rouge]
+gems: [jekyll-paginate, jekyll-gist, rouge, jekyll-redirect-from]
 include: ["_pages"]
 
 # Build settings
