@@ -11,8 +11,8 @@ title: Archive
       <li class="archive-item">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           <div class="item-core">
-            <span class="post-title">{{ post.title }}</span>
-            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2 class="post-title"><span class="background">{{ post.title }}</span></h2>
+            <h3 class="post-date"><span class="background">{{ post.date | date: "%b %-d, %Y" }}</span></h3>
           </div>
           <div class="item-metadata">
             <p class="taxonomy author">{{ post.author }}</p>

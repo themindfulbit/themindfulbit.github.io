@@ -815,8 +815,11 @@ body {
 
       .archive-list {
         list-style-type: none;
+        @include column(12,12);
+        padding: 0;
 
         .archive-item {
+          @include column(12,12);
           margin: 0 0 0.5em;
           padding: 0;
           border-bottom: 1px dotted $black;
@@ -828,22 +831,44 @@ body {
           .item-core {
 
             .post-title {
+              @include column(8,12);
+              padding: 0;
+              font-family: "adobe-caslon-pro", "Adobe Caslon Pro", serif;
+              font-size: 1em;
+              font-weight: normal;
+              font-style: normal;
               position: relative;
-              top: 0.5em;
-              padding-right: 0.5em;
-              display: inline-block;
-              background-color: $ecru;
+              top: 0.7em;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              text-transform: capitalize;
+              background-color: transparent;
+
+              .background {
+                background-color: $ecru;
+                padding-right: 0.5em;
+              }
             }
 
             .post-date {
+              @include column(4,12);
+              padding: 0;
+              font-family: "adobe-caslon-pro", "Adobe Caslon Pro", serif;
+              font-size: 1em;
+              font-weight: normal;
+              font-style: normal;
               position: relative;
-              top: 0.5em;
-              padding-left: 0.5em;
-              display: inline-block;
+              top: 0.7em;
               float: right;
-              background-color: $ecru;
-            }
+              text-align: right;
+              background-color: transparent;
 
+              .background {
+                background-color: $ecru;
+                padding-left: 0.5em;
+              }
+            }
           }
 
           .item-metadata {
