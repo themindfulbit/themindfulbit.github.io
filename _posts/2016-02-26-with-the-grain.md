@@ -4,7 +4,7 @@ title: 'With the Grain'
 author: [Erik Hess]
 categories: [mindfulness]
 tags: [potatowire]
-banner: grain.png
+banner: grain.jpg
 caption: '[Internet Archive](https://flic.kr/p/wk4QXd)'
 link: http://with.thegra.in
 ---
