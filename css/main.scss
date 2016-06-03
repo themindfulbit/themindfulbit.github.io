@@ -604,6 +604,11 @@ body {
             font-style: italic;
             color: $gray;
             line-height: 1.1em;
+
+            a {
+              color: $gray;
+              border-bottom: 1px dotted $gray;
+            }
           }
         }
       }
