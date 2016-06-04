@@ -254,6 +254,10 @@ pre {
   margin: 0 0 0.7em;
   font-family: "inconsolata", monospace;
 
+  &.highlight {
+    background-color: transparent;
+  }
+
   code {
     padding: 0.5em;
   }
@@ -1125,7 +1129,7 @@ body {
       padding: 1em 1em 0.5em;
 
 
-      &:nth-child(2n+1) {
+      &:nth-child(2n+2) {
         float: right;
       }
     }
