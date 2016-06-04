@@ -1129,7 +1129,7 @@ body {
       padding: 1em 1em 0.5em;
 
 
-      &:nth-child(2n+2) {
+      &:nth-child(2n) {
         float: right;
       }
     }
@@ -1235,7 +1235,7 @@ body {
       padding: 1em 1em 0.5em;
 
 
-      &:nth-child(2n+1) {
+      &:nth-child(2n) {
         float: right;
       }
     }
