@@ -123,6 +123,11 @@ blockquote {
     display: block;
     text-align: right;
     padding-right: 2em;
+
+    a {
+      color: $gray !important;
+      text-decoration: underline;
+    }
   }
 
   &.poetry {
@@ -501,6 +506,15 @@ body {
 
         blockquote p:first-child {
           font-size: 1em;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          float: none;
         }
 
         aside {
@@ -1104,6 +1118,11 @@ body {
           blockquote {
             font-size: 1.3em;
             line-height: 1.5em;
+
+            cite {
+              font-size: 0.7em;
+              line-height: 1.2em;
+            }
           }
         }
 

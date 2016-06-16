@@ -34,6 +34,6 @@
   {% endif %}
 
   <p class="post-meta">
-    <span class="date">{{ page.date | date: "%B %-d, %Y" }}&nbsp;</span><span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>{% if page.author %}<span class="author">&nbsp;By <a href="{{ site.url }}/archive?search={{ page.author }}">{{ page.author }}</a></span>{% else %}<span class="author">&nbsp;By <a href="{{ site.url }}/archive?search=Erik">Erik Hess</a></span>{% endif %}
+    <span class="date">{{ page.date | date: "%B %-d, %Y" }}&nbsp;</span><span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>{% if page.author %}<span class="author">&nbsp;By <a href="{{ site.url }}/archive?search={{ page.author }}">{{ page.author | array_to_sentence_string }}</a></span>{% else %}<span class="author">&nbsp;By <a href="{{ site.url }}/archive?search=Erik">Erik Hess</a></span>{% endif %}
   </p>
 </div>
