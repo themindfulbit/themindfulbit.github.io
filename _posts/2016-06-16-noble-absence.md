@@ -6,7 +6,7 @@ categories: [ideas]
 tags: [mindfulness, presence, absence]
 banner: leidseplein.jpg
 caption: 'Evening impression of the Leidseplein in Amsterdam, 1960–1965. [J.B. Ingwersen](https://flic.kr/p/oUPsLh)'
-medium: ''
+medium: 'https://m.high90.com/noble-absence-ef2cad89ca6e#.o53idtvmm'
 ---
 
 We hear about it all the time, from those physically near us and (perhaps ironically) through the din of mass-media: We’re too distracted. We aren’t aware of our surroundings. We spend too much time staring into our shiny black rectangles, and not enough time focusing on what’s really important.
