@@ -89,7 +89,11 @@ Canonical links are an HTML element designed to help search engines deal with du
 
 To use an example already available, the post *Noble Absence* lives on [my personal blog](http://themindfulbit.com/blog/noble-absence) and was cross-posted to the high90 blog [on Medium](https://m.high90.com/noble-absence-ef2cad89ca6e#.xptc2yp2q). If you use Medium’s import feature they insert the following tag into the page’s `<head>` element:
 
-{% gist 9c2b869bd105a808286b9f5aaaeaacc9 %}
+{% highlight html linenos %}
+{% raw %}
+<link rel="canonical" href="http://themindfulbit.com/blog/noble-absence">
+{% endraw %}
+{% endhighlight %}
 
 Now the search engines know which one of the two sites is the original.
 
