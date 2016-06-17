@@ -244,7 +244,7 @@ ol li {
 
 code {
   font-family: "inconsolata", monospace;
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 1.3em;
   background-color: $lighter-gray;
   display: inline-block;
@@ -515,6 +515,7 @@ body {
         h5,
         h6 {
           float: none;
+          margin-top: 1em;
         }
 
         aside {
