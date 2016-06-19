@@ -9,7 +9,7 @@ caption: '[Annals of the South African Museum, 1898.](https://flic.kr/p/u4kAYH)'
 medium: ""
 ---
 
-Even though [my site](http://themindfulbit.com) is hosted on [Github Pages](https://pages.github.com/), I prefer to write and design on my laptop. To support that kind of local development, Jekyll offers a handy [dev server](https://jekyllrb.com/docs/usage/) that will watch your site’s files, reprocess them when anything changes, and fire up a local web server.
+Even though [my site](http://themindfulbit.com) is hosted on [Github Pages](https://pages.github.com/), I prefer to write and design on a laptop. To support that kind of local development, Jekyll offers a handy [dev server](https://jekyllrb.com/docs/usage/) that will watch your site’s files, reprocess them when anything changes, and fire up a local web server.
 
 To get started, open a terminal window, navigate to your site's root folder, type `jekyll serve` and hit enter. After a few seconds of compiling, you'll find a (probably broken) copy of your website at [http://localhost:4000](http://localhost:4000).
 
