@@ -7,7 +7,7 @@
 @import "_grid";
 @import "_form";
 @import "_print";
-@import "tomorrow";
+@import "tomorrow-night";
 
 // Base font-size in pixels.
 $font-size: 16;
@@ -25,6 +25,7 @@ $outer-margin: 0;
 // Colors
 
 $ecru: #fbfaf5;
+$carbon: #111111;
 $black: #333333;
 $dark-gray: #555555;
 $gray: #777777;
@@ -140,6 +141,7 @@ blockquote {
 iframe {
   @include column(12,12);
   padding: 0;
+  float: none;
 
   .twitter-tweet {
     margin-bottom: 2em;
@@ -247,49 +249,146 @@ code {
   font-size: 0.8em;
   line-height: 1.3em;
   background-color: $lighter-gray;
+  color: $black;
   display: inline-block;
   padding: 0 0.3em;
   border-radius: 0.2em;
   border: 1px solid $light-gray;
 }
 
-pre {
+
+
+.prettyprint {
   @include column(12,12);
-  padding: 0;
-  margin: 0 0 0.7em;
+  padding: 1em 2em !important;
+  margin-top: 1em;
+  margin-bottom: 2.3em;
   font-family: "inconsolata", monospace;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  border: none;
+  background-color: $black;
+  color: $ecru;
+  border-radius: 0.2em;
+  box-shadow: 0 0 0.5em $carbon inset;
 
-  &.highlight {
-    background-color: transparent;
-  }
+  &.linenums {
+    counter-reset: line-numbering;
+    position: relative;
+    padding: 0 2.5em !important;
 
-  code {
-    padding: 0.5em;
-  }
-}
+    ol {
+      border-left: 1px solid $dark-gray;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
 
-figure {
-  @include column(12,12);
-  padding: 0;
-  margin: 0 0 0.7em;
+    li.L0,
+    li.L1,
+    li.L2,
+    li.L3,
+    li.L4,
+    li.L5,
+    li.L6,
+    li.L7,
+    li.L8,
+    li.L9 {
+      padding-left: 1em;
+      background-color: transparent;
+      list-style-type: none;
+      margin: 0;
+    }
 
-  &.highlight {
-    background-color: transparent;
-  }
+    li {
+      text-indent: -1.5em;
 
-  pre {
-    margin: 0;
-    padding-top: 0.3em;
-
-    code {
-      padding: 0;
-
-      table {
-        margin-bottom: 0;
+      &::before {
+        content: counter(line-numbering);
+        counter-increment: line-numbering;
+        text-align: right;
+        display: inline-block;
+        padding-right: 1.5em;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
       }
     }
   }
 }
+
+// pre {
+//   @include column(12,12);
+//   padding: 0;
+//   margin: 0 0 0.7em;
+//   font-family: "inconsolata", monospace;
+//
+//   &.highlight {
+//     background-color: transparent;
+//   }
+//
+//   code {
+//     padding: 0.5em;
+//   }
+// }
+//
+// figure {
+//   @include column(12,12);
+//   padding: 0;
+//   margin: 0 0 1em;
+//
+//   &.highlight {
+//     background-color: transparent;
+//     padding: 0;
+//
+//     pre {
+//       counter-reset: line-numbering;
+//
+//
+//
+//       code {
+//         @include column(12,12);
+//         padding: 1em 2em;
+//         border: none;
+//         background-color: $black;
+//         color: $ecru;
+//         border-radius: 0.2em;
+//         box-shadow: 0 0 0.5em $carbon inset;
+//
+//         table {
+//           background: transparent;
+//           font-size: 1em;
+//           position: relative;
+//           left: -1em;
+//
+//           pre {
+//
+//           }
+//         }
+//
+//         .gutter {
+//           vertical-align: top;
+//
+//
+//         }
+//       }
+//     }
+//   }
+//
+//   pre {
+//     margin: 0;
+//
+//     code {
+//       padding: 0;
+//
+//       table {
+//         margin-bottom: 0;
+//       }
+//     }
+//   }
+// }
 
 kbd, tt {
   font-family: "inconsolata", monospace;
@@ -1033,6 +1132,7 @@ body {
         @include column(6,12);
         padding: 0 0.5em 0 0;
         border-left: 0;
+        float: right;
         text-align: right;
         border-right: 0.5em solid $red;
       }

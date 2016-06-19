@@ -3,7 +3,7 @@
 message=$1
 
 git pull origin master
-jekyll build
+# jekyll build
 git add -A
 
 if [[ -n "$message" ]]; then

@@ -15,39 +15,47 @@ Luckily [Snaggletooth_DE](https://discussions.apple.com/people/Snaggletooth_DE) 
 
 In the terminal type:
 
-{% highlight shell %}
+<pre class="prettyprint lang-sh">
 sudo vim /etc/auto_master
-{% endhighlight %}
+</pre>
 
 Follow that up with your password. You should now be editing a file that looks something like this:
 
-{% gist themindfulbit/b71e1b32183fc56a683ff689278d7b80 %}
-
+<pre class="prettyprint linenums lang-sh">
+#
+# Automounter master map
+#
++auto_master            # Use directory service
+/net                    -hosts         -nobrowse,hidefromfinder,nosuid
+/home                   auto_home      -nobrowse,hidefromfinder
+/Network/Servers        -fstab
+/-                      -static
+</pre>
 
 For those who haven't used the command-line text editor [vim](http://www.vim.org/) before, you'll need to type `i` to start editing. Use your cursors to move to the line with:
 
-{% highlight shell %}
+<pre class="prettyprint lang-sh">
 /net
-{% endhighlight %}
+</pre>
 
 Comment that line out by putting `#` in front of it, so it reads:
 
-{% highlight shell %}
+<pre class="prettyprint lang-sh">
 #/net
-{% endhighlight %}
+</pre>
 
 Save your file by typing `Esc, Shift-Z, Shift-Z` (that's the escape key, followed by capital Z twice in a row). Next enter the following command:
 
-{% highlight shell %}
+<pre class="prettyprint lang-sh">
 sudo automount -vc
-{% endhighlight %}
+</pre>
 
 You should see something like this:
 
-{% highlight shell %}
+<pre class="prettyprint lang-sh">
 automount: /home updated
 automount: /net unmounted
-{% endhighlight %}
+</pre>
 
 You're done. No reboot or logout required.
 
