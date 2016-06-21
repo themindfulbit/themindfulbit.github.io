@@ -16,7 +16,7 @@ redirect_from: "/feed"
       <item>
         <title>{% if post.link %}{{ post.title | xml_escape }}<![CDATA[ &rArr;]]>{% else %}{{ post.title | xml_escape }}{% endif %}</title>
         <author>{% if post.author %}{{ post.author | array_to_sentence_string }}{% else %}Erik Hess{% endif %}</author>
-        <description>{% if post.banner %}<![CDATA[<div><img src="{{ site.url}}/assets/img/{{ post.banner }}"/></div>]]>{% endif %}{{ post.content | xml_escape }}{% if post.link %}<![CDATA[<div class="permalink"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">///</a></div>]]>{% endif %}</description>
+        <description>{% if post.banner %}<![CDATA[<figure><img src="{{ site.url}}/assets/img/{{ post.banner }}"/><figcaption>{{ post.caption | markdownify }}</figcaption></figure>]]>{% endif %}{{ post.content | xml_escape }}{% if post.link %}<![CDATA[<div class="permalink"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">///</a></div>]]>{% endif %}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{% if post.link %}{{ post.link }}{% else %}{{ post.url | prepend: site.baseurl | prepend: site.url }}{% endif %}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>

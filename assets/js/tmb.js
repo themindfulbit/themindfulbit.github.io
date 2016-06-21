@@ -63,4 +63,6 @@ $(document).ready(function(){
       archiveList.search(decodeURIComponent(urlParam[1]));
     }
 
+    $(".post-title").unorphanize();
+
 });

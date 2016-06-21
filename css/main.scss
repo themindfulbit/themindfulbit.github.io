@@ -703,8 +703,7 @@ body {
 
         .image-block {
           @include column(12,12);
-          padding: 0;
-
+          padding: 1em 0;
           .fancybox {
 
             img {
@@ -962,11 +961,15 @@ body {
               font-style: normal;
               position: relative;
               top: 0.7em;
+              line-height: 1.5em;
               white-space: nowrap;
               overflow: hidden;
               text-overflow: ellipsis;
-              text-transform: capitalize;
+              text-transform: none;
               background-color: transparent;
+              margin-top: 0;
+              margin-bottom: 0;
+              letter-spacing: 1px;
 
               .background {
                 background-color: $ecru;
@@ -986,6 +989,8 @@ body {
               float: right;
               text-align: right;
               background-color: transparent;
+              margin-top: 0;
+              margin-bottom: 0;
 
               .background {
                 background-color: $ecru;
