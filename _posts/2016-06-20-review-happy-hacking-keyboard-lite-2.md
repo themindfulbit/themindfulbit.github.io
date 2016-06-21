@@ -6,7 +6,7 @@ categories: [technology]
 tags: [keyboards]
 banner: hhkbl2banner.jpg
 caption: 'The Happy Hacking Keyboard Lite 2'
-medium: ""
+medium: "https://medium.com/@themindfulbit/review-happy-hacking-keyboard-lite-2-e77ca8a1a776#.fyl9p6739"
 ---
 
 The Happy Hacking Keyboard (HHKB) is series of extremely compact wired keyboards from a subsidiary of Fujitsu named [PFU](http://www.pfu.fujitsu.com/hhkeyboard/). I bought mine from [Amazon](https://www.amazon.com/Happy-Hacking-Keyboard-Lite2-Black/dp/B0000U1DJ2/ref=sr_1_1?ie=UTF8&qid=1466472173&sr=8-1&keywords=hhkb+lite).
