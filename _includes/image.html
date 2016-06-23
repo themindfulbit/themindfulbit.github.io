@@ -3,6 +3,6 @@
 		<img src="{{ site.url }}/assets/img/{{ include.file }}" />
 	</a>
   {% if include.title %}
-    <small class="caption {{ include.class }}">{{ include.title | markdownify | remove: '<p>' | remove: '</p>' }} {% if include.link %}<a href="{{ include.link }}">{{ include.source }}</a>{% endif %}</small>
+    <figcaption class="caption {{ include.class }}">{{ include.title | markdownify | remove: '<p>' | remove: '</p>' }} {% if include.link %}<a href="{{ include.link }}">{{ include.source }}</a>{% endif %}</figcaption>
   {% endif %}
 </div>

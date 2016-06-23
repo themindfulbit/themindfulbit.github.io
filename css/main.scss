@@ -713,7 +713,7 @@ body {
             }
           }
 
-          small {
+          figcaption {
             @include column(8,12);
             @include push(2,12);
             padding: 0.5em 0 0.7em;

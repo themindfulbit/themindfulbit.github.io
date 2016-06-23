@@ -64,5 +64,5 @@ $(document).ready(function(){
     }
 
     $(".post-title").unorphanize();
-
+    $(".caption").unorphanize();
 });
