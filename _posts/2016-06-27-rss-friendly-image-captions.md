@@ -23,7 +23,7 @@ See how the caption is indistinguishable from the body text? What we'd like is s
 
 As you can see, Reeder has rendered the caption in a smaller and lighter colored font. We can achieve that effect using `<figure>` and `<figcaption>`.
 
-[`<figure>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) and [`<figcaption>`](https://developer.mozilla.org/en/docs/Web/HTML/Element/figcaption) are [broadly supported](http://caniuse.com/#search=figcaption) HTML 5 elements that are useful for supporting items that enrich a body of text. We’re using them here for images, but as elements they’re applicable for anything you might need to feature in a scientific paper or other explanatory document.
+[`<figure>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) and [`<figcaption>`](https://developer.mozilla.org/en/docs/Web/HTML/Element/figcaption) are [broadly supported](http://caniuse.com/#search=figcaption) HTML 5 elements that are useful for complementary items that enrich a body of text. We’re using them here for images, but as elements they’re applicable for anything you might need to feature in a scientific paper or other explanatory document.
 
 A simple implementation looks like this:
 
