@@ -53,7 +53,7 @@ Create a file called `image.html` in the `_includes` folder. Add the following c
 {% raw %}
 <pre class="prettyprint linenums lang-html">
 &lt;figure class="image-figure">
-  &lt;img src=“{{ site.url}}/path/to/img/{{ include.file }}” alt="{{ include.caption }}"/>
+  &lt;img src=“{{ site.url }}/path/to/img/{{ include.file }}” alt="{{ include.caption }}"/>
   &lt;figcaption>{{ include.caption }}&lt;/figcaption>
 &lt;/figure>
 </pre>
@@ -80,7 +80,7 @@ If you don't want to commit to captions on all your images, you can add some con
 </pre>
 {% endraw %}
 
-Sometimes you may want to style some images differently from the rest using HTML classes. That way, with CSS you can make certain images smaller, larger, or align them on the right or left side of the text. It can also be helfpul to add Markdown links to your captions so others can learn more about the images and their sources. Here's how all that is done:
+Sometimes you may want to style some images differently from the rest using HTML classes. That way, with CSS you can make certain images smaller, larger, or align them on the right or left side of the text. It can also be helpful to add Markdown links to your captions so others can learn more about the images and their sources. Here's how all that is done:
 
 {% raw %}
 <pre class="prettyprint linenums lang-html">
