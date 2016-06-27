@@ -191,6 +191,11 @@ a:focus {
 		color: $dark-red;
 		text-decoration: none;
 	}
+
+  code {
+    color: $red !important;
+    border-color: $red !important;
+  }
 }
 
 p {
@@ -703,7 +708,8 @@ body {
 
         .image-block {
           @include column(12,12);
-          padding: 1em 0;
+          padding: 0.5em 0;
+
           .fancybox {
 
             img {
@@ -716,11 +722,18 @@ body {
           figcaption {
             @include column(8,12);
             @include push(2,12);
-            padding: 0.5em 0 0.7em;
+            padding: 0.7em 0 0.5em;
             text-align: center;
             font-style: italic;
             color: $gray;
             line-height: 1.1em;
+
+            p {
+              font-size: 0.9em;
+              margin: 0;
+              line-height: 1.3em;
+              display: inline;
+            }
 
             a {
               color: $gray;

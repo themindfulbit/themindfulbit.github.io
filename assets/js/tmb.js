@@ -2,6 +2,8 @@
 
 $(document).ready(function(){
 
+  $(".fancybox").fancybox();
+
 	// Video rescaling fix : http://www.netmagazine.com/tutorials/create-fluid-width-videos
 
 		// Find all YouTube videos
