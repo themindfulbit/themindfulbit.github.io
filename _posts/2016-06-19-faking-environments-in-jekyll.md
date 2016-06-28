@@ -38,7 +38,7 @@ jekyll serve --config _config_dev.yml
 We can make the whole thing even easier by adding an [alias](http://www.linfo.org/alias.html) to your `.bashrc` file:
 
 <pre class="prettyprint lang-sh">
-alias watch='jekyll serve --config _config_dev.yml'
+alias jw='jekyll serve --config _config_dev.yml'
 </pre>
 
-Now all you have to do is navigate to the root of your Jekyll folder and type `watch`. Point your browser to [http://localhost:4000](http://localhost:4000) and you'll be set.
+Now all you have to do is navigate to the root of your Jekyll folder and type `jw` (jekyll watch). Point your browser to [http://localhost:4000](http://localhost:4000) and you'll be set.
