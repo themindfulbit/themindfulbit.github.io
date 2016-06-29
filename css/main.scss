@@ -740,6 +740,10 @@ body {
               text-decoration: underline;
             }
           }
+
+          &.transparent .fancybox img {
+            border: none;
+          }
         }
       }
     }

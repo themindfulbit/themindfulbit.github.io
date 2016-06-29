@@ -4,5 +4,7 @@
 	</a>
   {% if include.title %}
     <figcaption class="caption {{ include.class }}">{{ include.title | markdownify }} </figcaption>
+  {% else %}
+    <figcaption class="caption {{ include.class }}"><p></p></figcaption>
   {% endif %}
 </figure>
