@@ -48,6 +48,14 @@ layout: default
 
       <div class="post-content">
         {{ post.content }}
+
+        {% if page.link %}
+          <div class="permalink">
+            <a href="{{ site.url }}{{ page.url }}">
+              <span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>
+            </a>
+          </div>
+        {% endif %}
       </div>
       <div class="post-footer">
         {% if post.categories %}
