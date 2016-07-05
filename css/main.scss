@@ -1249,6 +1249,27 @@ body {
           }
         }
 
+        .image-set {
+          @include column(12,10);
+          @include push(-1,10);
+          padding: 0;
+
+          .image-block {
+
+
+            .caption {
+              @include column(12,12);
+              margin-left: 0;
+              padding: 0.7em 0 0.5em;
+            }
+          }
+
+          .image-triplet {
+            @include column(4,12);
+            padding: 0 0.3em;
+          }
+        }
+
         .has-pullquote:before {
         	content: attr(data-pullquote);
           @include column(5,10);
