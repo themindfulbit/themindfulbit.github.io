@@ -33,4 +33,4 @@ In honor of our recent holiday weekend, here's a relevant segment from the chapt
 
 The beautiful, inscrutable graphics of *The Chromatographic Chronicle of English History* must have been difficult to print in great quantities. Most of the coloration appears to have been done by hand.
 
-In case you're curious, masochistic, or are preparing for an upcoming AP History test, you can [download the book](http://access.bl.uk/item/pdf/lsidyv386c0b56) in its entirety from [The British Library](http://www.bl.uk/).
+In case you're curious, masochistic, or preparing for an upcoming AP History test, you can [download the book](http://access.bl.uk/item/pdf/lsidyv386c0b56) in its entirety from [The British Library](http://www.bl.uk/).
