@@ -157,12 +157,27 @@ iframe {
   margin: 0;
 }
 
+.smcaps {
+  font-variant: small-caps;
+}
+
+.clear {
+  clear: both;
+}
+
 table {
   @include column(12,12);
   padding: 0;
   margin-bottom: 0.7em;
   background-color: $lighter-gray;
   font-size: 0.9em;
+  display: table
+
+  tr {
+    @include column(12,12);
+    padding: 0;
+    display: table-row;
+  }
 
   th {
     font-family: "futura-pt", "Futura PT", sans-serif;
@@ -171,11 +186,13 @@ table {
     color: $dark-gray;
     padding: 0.2em 0.5em;
     text-align: left;
+    display: table-cell;
   }
 
   td {
     padding: 0.2em 0.5em;
     text-align: left;
+    display: table-cell;
   }
 }
 
@@ -632,6 +649,55 @@ body {
 
           blockquote {
             margin-bottom: 0;
+          }
+        }
+
+        table {
+
+          &.transparent {
+            background-color: transparent;
+          }
+
+          &.chromatographic {
+            font-size: 1em;
+
+            tbody {
+              @include column(12,12);
+              padding: 0;
+            }
+
+            tr {
+              @include column(12,12);
+              padding: 0;
+              display: table-row;
+              float: none;
+            }
+
+            th {
+              text-align: center;
+            }
+
+            .image {
+              @include column(3,12);
+              padding: 0.5em;
+              float: none;
+              display: table-cell;
+              vertical-align: middle;
+            }
+
+            .description {
+              @include column(9,12);
+              padding: 0.5em;
+              float: none;
+              display: table-cell;
+              vertical-align: middle;
+
+              p {
+                font-size: 1em;
+                margin-top: 0.3em;
+                margin-bottom: 0.3em;
+              }
+            }
           }
         }
 
@@ -1210,6 +1276,11 @@ body {
               @include column(3,10);
               @include push(-1,10);
               padding: 0 1em 0 0;
+
+              &.inset {
+                @include push(0);
+                padding: 0 1em 0 0;
+              }
             }
           }
 
@@ -1225,6 +1296,11 @@ body {
               @include pull(-1,10);
               padding: 0 0 0 1em;
               float: right;
+
+              &.inset {
+                @include pull(0);
+                padding: 0 0 0 1em;
+              }
             }
           }
 
@@ -1342,6 +1418,11 @@ body {
               @include column(2,8);
               @include push(-2,8);
               padding: 0 1em 0 0;
+
+              &.inset {
+                @include push(0);
+                padding: 0 1em 0 0;
+              }
             }
           }
 
@@ -1357,6 +1438,11 @@ body {
               @include pull(-2,8);
               padding: 0 0 0 1em;
               float: right;
+
+              &.inset {
+                @include pull(0);
+                padding: 0 0 0 1em;
+              }
             }
           }
 
@@ -1412,8 +1498,8 @@ body {
 
 }
 
-/* @media screen and (min-width: 1152px) */
-@media screen and (min-width: 72em) {
+/* @media screen and (min-width: 1168px) */
+@media screen and (min-width: 73em) {
 
   @include baseline-grid(24);
 

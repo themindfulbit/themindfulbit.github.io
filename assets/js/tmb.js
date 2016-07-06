@@ -67,4 +67,6 @@ $(document).ready(function(){
 
     $(".post-title").unorphanize();
     $(".caption").unorphanize();
+    $(".post-content h2").unorphanize();
+    $(".post-content h3").unorphanize();
 });
