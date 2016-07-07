@@ -40,6 +40,9 @@ layout: default
         {% else %}
           <h1 class="post-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
         {% endif %}
+        {% if post.subtitle %}
+          <h2 class="post-subtitle">{{ post.subtitle }}</h2>
+        {% endif %}
 
         <p class="post-meta">
           <span class="date">{{ post.date | date: "%B %-d, %Y" }}&nbsp;</span><span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>{% if post.author %}<span class="author">&nbsp;By <a href="{{ site.url }}/archive?search={{ post.author }}">{{ post.author }}</a></span>{% endif %}

@@ -601,6 +601,15 @@ body {
           }
         }
 
+        .post-subtitle {
+          @include column(12,12);
+          padding: 0;
+          margin: 0;
+          font-size: 1.2em;
+          color: $gray;
+          font-weight: normal;
+        }
+
         .post-meta {
           @include column(12,12);
           padding: 0;
@@ -650,6 +659,10 @@ body {
           blockquote {
             margin-bottom: 0;
           }
+        }
+
+        .video {
+          margin-bottom: 0;
         }
 
         table {
@@ -772,7 +785,8 @@ body {
           }
         }
 
-        .image-block {
+        .image-block,
+        .video {
           @include column(12,12);
           padding: 0.5em 0;
 
@@ -1257,7 +1271,8 @@ body {
       .post-content {
 
         aside,
-        .image-block {
+        .image-block,
+        .video {
 
           &.wide {
             @include column(12,10);
@@ -1399,7 +1414,8 @@ body {
       .post-content {
 
         aside,
-        .image-block {
+        .image-block,
+        .video {
 
           &.wide {
             @include column(12,8);
