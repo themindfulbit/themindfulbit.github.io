@@ -434,7 +434,8 @@ q {
 }
 
 hr {
-  @include column(12,12);
+  @include column(8,12);
+  @include push(2,12);
   padding: 0;
   border: none;
   border-top: medium double $light-gray;
