@@ -789,7 +789,7 @@ body {
         .image-block,
         .video {
           @include column(12,12);
-          padding: 0.5em 0;
+          padding: 1em 0;
 
           .fancybox {
 
@@ -1274,6 +1274,8 @@ body {
         aside,
         .image-block,
         .video {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
 
           &.wide {
             @include column(12,10);
