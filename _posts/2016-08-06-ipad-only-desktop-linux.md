@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "iPad-only is the New Desktop Linux"
+title: "iPad-only As the New Desktop Linux"
 author: [Erik Hess]
 categories: [technology]
 tags: [ipad, linux, ios]
