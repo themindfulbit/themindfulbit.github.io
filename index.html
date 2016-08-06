@@ -52,9 +52,9 @@ layout: default
       <div class="post-content">
         {{ post.content }}
 
-        {% if page.link %}
+        {% if post.link %}
           <div class="permalink">
-            <a href="{{ site.url }}{{ page.url }}">
+            <a href="{{ site.url }}{{ post.url }}">
               <span class="slashes"><span class="slash-r">/</span><span class="slash-g">/</span><span class="slash-b">/</span></span>
             </a>
           </div>
