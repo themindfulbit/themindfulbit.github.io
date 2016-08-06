@@ -14,7 +14,7 @@ Go read [this excellent piece](https://medium.com/@chipotlecoyote/ipad-only-is-t
 
 What's interesting is his argument that folks who are trying to go iOS primary (or at least iOS when mobile) are doing it *because* of the challenge. That resonates with my experience on iOS *and* Linux.
 
-Eye-grabbing headline comparisons aside, he illuminates why using iOS is such a challenge, and it comes as no real surprise: continued difficulties with the iOS inter-app communication paradigm and the OS-wide lack of a multi-app file concept. This could of course be solved by a computer-like traditional file system. While there are reasonable objections to taking that path, it seems difficult to argue that the current solution is somehow *better* than a traditional file system.
+Eye-grabbing headline comparisons aside, he illuminates why using iOS is such a challenge and it comes as no real surprise: continued difficulties with the iOS inter-app communication paradigm and the OS-wide lack of a multi-app file concept. This could of course be solved by a computer-like traditional file system. While there are reasonable objections to taking that path, it seems difficult to argue that the current solution is somehow *better* than a traditional file system.
 
 Third-parties are making great strides on the workaround front. With the latest update to [Textastic](https://www.textasticapp.com/), you can now navigate and edit an entire Git repository’s folder structure in place via [Working Copy](https://workingcopyapp.com/). Dropbox continues to be the file system for a file-systemless OS. [Workflow](https://workflow.is/) is essential. That kind of third-party effort is great, and much of it is even enabled by OS-level tools, like the iCloud document picker.
 
