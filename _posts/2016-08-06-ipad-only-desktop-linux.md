@@ -5,7 +5,7 @@ author: [Erik Hess]
 categories: [technology]
 tags: [ipad, linux, ios]
 banner: two-workers.jpg
-caption: "[Tyne & Wear Archives & Museum](https://flic.kr/p/cAyhRy)"
+caption: "[Tyne & Wear Archives & Museum](https://flic.kr/p/fNEXvY)"
 link: 'https://medium.com/@chipotlecoyote/ipad-only-is-the-new-desktop-linux-de88b61b6d99#.1itrczgx6'
 medium: ""
 ---
