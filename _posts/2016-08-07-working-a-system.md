@@ -1,11 +1,12 @@
 ---
+layout: post
 title: 'Working a System'
 author: [Erik Hess]
 categories: [productivity]
-tags: [writing]
+tags: [writing, habit]
 banner: psychophysic-curve.jpg
-caption: '[Manual of Empirical Psychology as an Inductive Science, 1890.](https://archive.org/stream/manualofempirica00linduoft/manualofempirica00linduoft#page/38/mode/1up)'
-link: 'http://kevinrothermel.com/blog/working-a-system/'
+caption: "[Manual of Empirical Psychology as an Inductive Science, 1890.](https://archive.org/stream/manualofempirica00linduoft/manualofempirica00linduoft#page/38/mode/1up)"
+link: "http://kevinrothermel.com/blog/working-a-system/"
 ---
 
 [Kevin Rothermel](http://twitter.com/kevinrothermel) has committed to publishing every day for a week. Today is [day three](http://kevinrothermel.com/blog/working-a-system/).
