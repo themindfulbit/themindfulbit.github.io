@@ -5,9 +5,18 @@
     <li class="post-item">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
         <div class="post-banner" style="background-image: url({{ site.url }}/assets/img/{{ post.banner }})">&nbsp;</div>
-        <h2 class="post-title">{{ post.title }}</h2>
-        <h3 class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</h3>
+        <div class="post-data">
+          <h2 class="post-title">{{ post.title }}</h2>
+          <h3 class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</h3>
+        </div>
       </a>
     </li>
   {% endfor %}
+  <li class="post-item post-more">
+    <a class="post-link" href="{{ site.url}}/archive">
+      <div class="post-data">
+        <h3 class="post-meta">Find more posts in the archive</h3>
+      </div>
+    </a>
+  </li>
 </ul>
