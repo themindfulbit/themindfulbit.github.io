@@ -17,6 +17,7 @@ github_username:  themindfulbit
 permalink: /blog/:title
 gems: [jekyll-paginate, jekyll-gist, rouge, jekyll-redirect-from, jekyll-sitemap]
 include: ["_pages"]
+timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
