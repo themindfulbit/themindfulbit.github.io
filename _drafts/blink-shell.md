@@ -5,7 +5,7 @@ author: [Erik Hess]
 categories: [development]
 tags: [ios, mosh, ssh, blink shell]
 banner: cone-snail-shell.jpg
-caption: "Another fancy shell. [Exotic Conchology, 1821.](https://flic.kr/p/odvuLE)"
+caption: "Another fancy shell. [Exotic Conchology, 1821.](https://archive.org/stream/exoticconchology00swai/exoticconchology00swai#page/n44/mode/1up)"
 ---
 
 Have you been looking for a good iOS SSH app? Have you been wishing [Panic](http://panic.com) would bring Mosh to [Prompt](https://panic.com/prompt/)? Have you been desperate to remap your Smart Keyboard's Caps Lock key to something more appropriate for a terminal environment?
