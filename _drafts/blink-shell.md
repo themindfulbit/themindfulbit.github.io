@@ -12,7 +12,7 @@ Have you been looking for a good iOS SSH app? Have you been wishing [Panic](http
 
 I certainly have. This week [Blink Shell](http://www.blink.sh/ "Blink Shell") came to my rescue. If you need to access remote terminal environments from an iOS device, it's well worth $20.
 
-{% include image.html class="wide" title="Blink on an iPad Pro" file="blink-tmux.jpg" %}
+{% include image.html class="right" title="Blink's non-interface is lovely." file="blink-iphone.jpg" %}
 
 ## What's Mosh?
 
@@ -20,7 +20,7 @@ I certainly have. This week [Blink Shell](http://www.blink.sh/ "Blink Shell") ca
 
 If you're used to broken connections and latency when using SSH from an iPhone or iPad, then you may find Mosh quite helpful. So why haven't we seen Mosh support on iOS earlier? Unfortunately, because Mosh is licensed under the GPL the only way it could be included in apps like Panic's excellent Prompt is if the developers [opened up the source code for the entire app](https://library.panic.com/prompt/prompt-mosh/). 
 
-{% include image.html class="right" title="Blink's non-interface is lovely." file="blink-iphone.jpg" %}
+{% include image.html class="" title="Blink's settings pane." file="blink-settings.jpg" %}
 
 ## Enter Blink
 
