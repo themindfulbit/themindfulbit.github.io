@@ -22,7 +22,7 @@ That's a big pill for Panic and other developers to swallow, but now users have 
 
 On top of Mosh support, Blink offers a lot of great ways to customize your terminal, including custom theme and font support. But to me Blink's greatest option is the ability to remap Control, Alt, Command, and Caps Lock. Long ago, i broke my brain by remapping Caps Lock to Control. With Blink, swapping keys via the the options menu (accessible via `Cmd-,`) was quick and easy. Blink's ability to map Escape to Caps offers a way to overcome one of the Smart Keyboard's biggest limitations.
 
-{% include image.html class="" title="Blink's non-interface is lovely." file="blink-tmux.jpg" %}
+{% include image.html class="wide" title="Blink's non-interface is lovely." file="blink-tmux.jpg" %}
 
 Blink's interface is refreshingly simple. You start with an empty screen and a prompt that looks like this:
 
