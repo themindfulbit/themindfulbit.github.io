@@ -1,4 +1,12 @@
-# Mosh Arrives for iOS with Blink Shell
+---
+layout: post
+title: 'Mosh Arrives for iOS with Blink Shell'
+author: [Erik Hess]
+categories: [development]
+tags: [ios, mosh, ssh, blink shell]
+banner: 
+caption: "caption text [image credit](image link)"
+---
 
 Have you been looking for a good iOS SSH app? Have you been wishing Panic would bring Mosh to Prompt? Have you been wishing for a way to remap your Smart Keyboard's Caps Lock key to something more appropriate for a terminal environment?
 
@@ -15,15 +23,15 @@ To me, Blink's greatest option is the ability to remap Control, Alt, Command, an
 Blink's interface is refreshingly simple. You start with an empty screen and a prompt that looks like this:
 
 ```
-`blink\>
+blink>
 ```
-`
+
 From there, simply type your protocol and identity. It supports ssh and mosh:
 
 ```
-`blink\> mosh me@example.com
+blink> mosh me@example.com
 ```
-`
+
 You can create new terminal "tabs" via `Cmd-T` then switch between them via a left-right swipe on the screen or `Cmd-[` and `Cmd-]`. Blink also supports iOS native copy and paste, although you'll have to touch your screen to do it.
 
 I've been waiting for Blink Shell for a long time. While it's $20 price might be steep for some, to me that's a small price to pay for this kind of capability. Until we get a native iOS terminal app, this is the best alternative for a good command-line experience on your iPad or iPhone.
