@@ -20,11 +20,11 @@ I certainly have. This week [Blink Shell](http://www.blink.sh/ "Blink Shell") ca
 
 If you're used to broken connections and latency when using SSH from an iPhone or iPad, then you may find Mosh quite helpful. So why haven't we seen Mosh support on iOS earlier? Unfortunately, because Mosh is licensed under the GPL the only way it could be included in apps like Panic's excellent Prompt is if the developers [opened up the source code for the entire app](https://library.panic.com/prompt/prompt-mosh/). 
 
-{% include image.html class="" title="Blink's settings pane." file="blink-settings.jpg" %}
-
 ## Enter Blink
 
 Open-sourcing your whole app is a big pill for developers like Panic to swallow, but it's not an insurmountable barrier for everyone. Since Blink is [open-source](https://github.com/blinksh/blink) from the start, the GPL limitation hasn't been a problem. And nothing in the GPL prevents you from charging for your software, as you'll discover if you decide to plunk down $20 for the app. If you need what Blink offers, it's money well spent.
+
+{% include image.html class="" title="Blink's settings pane." file="blink-settings.jpg" %}
 
 On top of Mosh support, Blink offers several ways to customize your terminal, including custom theme and font support. But to me Blink's greatest option is the ability to remap Control, Alt, Command, and Caps Lock. Long ago, I broke my brain by remapping Caps Lock to Control. With Blink, swapping keys via the the options menu (accessible via `Cmd-,`) was quick and easy. Additionally, Blink's ability to map Escape to Caps, Alt, Control, or Command offers a way to overcome one of the Smart Keyboard's biggest limitations -- no Escape key.
 
