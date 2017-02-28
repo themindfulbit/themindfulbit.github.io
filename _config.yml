@@ -9,7 +9,7 @@
 title: The Mindful Bit
 email: erik@themindfulbit.com
 description: > # this means to ignore newlines until "baseurl:"
-  Looking for the intersection of mindfulness, technology, and design. Seeing the world of tech through its impermanent, emergent, and inherently unsatisfying nature. There may not be any good answers, but it’s possible to have enlightening conversations around the questions the world throws at us.
+  Looking for the intersection of mindfulness, technology, and design. Seeing the world of tech through its impermanent, emergent, and inherently unsatisfying nature. There may not be any good answers, but it's possible to have enlightening conversations around the questions the world throws at us.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://themindfulbit.com" # the base hostname & protocol for your site
 twitter_username: themindfulbit
