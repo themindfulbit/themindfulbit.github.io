@@ -1,4 +1,12 @@
-# Tomcat Tails
+---
+layout: post
+title: 'Tomcat Tails'
+author: [Erik Hess]
+categories: [development]
+tags: [iMessage, Tomcat, apple]
+banner: 
+caption: "caption text [image credit](image link)"
+---
 
 Way back in 2004 I was dual-hatted as an instructor at the LSO School and VF-101, the Tomcat training squadron. Sadly for everyone in the Tomcat community, the aircraft was being retired. For decades, we'd have a yearly community ball called Fighter Fling. One of the highlights of Fighter Fling (and every community ball) was the annual video assembled from clips submitted by all the squadrons. I had the honor of co-producing the last two years' worth of Fling videos. 
 

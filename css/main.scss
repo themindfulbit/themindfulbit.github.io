@@ -42,13 +42,39 @@ $blue: #4386af;
 // Fonts
 
 @font-face {
-  font-family: Montserrat-Regular;
-  src: url(../assets/fonts/Montserrat-Regular.woff2);
+  font-family: Lato;
+  src: url(../assets/fonts/LatoLatin-Semibold.woff2);
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: Montserrat-Light;
-  src: url(../assets/fonts/Montserrat-Light.woff2);
+  font-family: Lato;
+  src: url(../assets/fonts/LatoLatin-Regular.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: Goudy;
+  src: url(../assets/fonts/GoudyStM-webfont.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Goudy;
+  src: url(../assets/fonts/GoudyStM-Italic-webfont.woff);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: url(../assets/fonts/inconsolata.woff2);
+  font-weight: normal;
+  font-style: normal;
 }
 
 // General Styling
@@ -57,13 +83,12 @@ h1,
 h2 {
   @include column(12,12);
   padding: 0;
-	font-family: "futura-pt", "Futura PT", sans-serif;
+	font-family: Lato, sans-serif;
 	text-transform: uppercase;
 	margin-top: 0.3em;
 	margin-bottom: 0.5em;
-//	letter-spacing: 1.5px;
-	font-weight: 500;
-	line-height: 1.2em;
+	font-weight: bold;
+	line-height: 1.1em;
 }
 
 h3,
@@ -72,14 +97,14 @@ h5,
 h6 {
   @include column(12,12);
   padding: 0;
-  font-family: "adobe-caslon-pro", "Adobe Caslon Pro", serif;
+  font-family: Goudy, serif;
   text-transform: capitalize;
   font-style: italic;
   margin-top: 0.3em;
   margin-bottom: 0.5em;
   letter-spacing: 1px;
-  font-weight: 500;
-  line-height: 1.2em;
+  font-weight: normal;
+  line-height: 1.1em;
 }
 
 h1 {
@@ -110,6 +135,7 @@ h6 {
 p {
   // @include column(12,12);
   // padding: 0;
+  line-height: 1.4em;
 }
 
 blockquote {
@@ -192,7 +218,7 @@ table {
   }
 
   th {
-    font-family: "futura-pt", "Futura PT", sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     color: $dark-gray;
@@ -279,7 +305,7 @@ ol li {
 }
 
 code {
-  font-family: "inconsolata", monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 0.8em;
   line-height: 1.3em;
   background-color: $lighter-gray;
@@ -297,7 +323,7 @@ code {
   padding: 1em 2em !important;
   margin-top: 1em;
   margin-bottom: 2.3em;
-  font-family: "inconsolata", monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 0.8em;
   line-height: 1.3em;
   border: none;
@@ -357,7 +383,7 @@ code {
 //   @include column(12,12);
 //   padding: 0;
 //   margin: 0 0 0.7em;
-//   font-family: "inconsolata", monospace;
+//   font-family: "Inconsolata", monospace;
 //
 //   &.highlight {
 //     background-color: transparent;
@@ -425,7 +451,7 @@ code {
 // }
 
 kbd, tt {
-  font-family: "inconsolata", monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 0.9em;
 }
 
@@ -460,7 +486,7 @@ hr:after {
   content: "///";
   display: inline-block;
   position: relative;
-  top: -0.5em;
+  top: -0.65em;
   font-size: 1.2em;
   padding: 0 0.3em;
   background: $ecru;
@@ -469,7 +495,7 @@ hr:after {
 
 .logo {
   font-weight: normal;
-  font-family: "adobe-caslon-pro", "Adobe Caslon Pro", serif;
+  font-family: Goudy, serif;
   text-transform: none;
   letter-spacing: normal;
 
@@ -482,6 +508,11 @@ hr:after {
     &:focus {
       color: $black;
     }
+  }
+
+  .slash {
+    position: relative;
+    top: -0.08em;
   }
 
   .slash-r {
@@ -500,12 +531,19 @@ hr:after {
     font-weight: bold;
     color: $blue;
   }
+
+  .logotext {
+    display: inline-block;
+    padding-left: 0.3em;
+  }
 }
 
 .slashes {
   font-weight: normal;
-  font-family: "adobe-caslon-pro", "Adobe Caslon Pro", serif;
+  font-family: Goudy, serif;
   text-transform: none;
+  position: relative;
+  top: -0.05em;
 
   .slash-r {
     font-weight: bold;
@@ -532,7 +570,7 @@ body {
   padding: 0 1em;
   background-color: $ecru;
   color: $black;
-  font-family: "adobe-caslon-pro", "Adobe Caslon Pro", serif;
+  font-family: Goudy, serif;
 
   #header {
   	@include column(12);
@@ -606,8 +644,10 @@ body {
 
         .post-title {
           @include column(12,12);
-          padding: 0;
+          padding: 0 0 0.1em;
           margin: 0;
+          font-weight: bold;
+          font-size: 1.8em;
 
           a {
             color: $black;
@@ -627,7 +667,7 @@ body {
           @include column(12,12);
           padding: 0;
           color: $gray;
-          font-family: "futura-pt", "Futura PT", sans-serif;
+          font-family: Lato, sans-serif;
           font-size: 0.9em;
           text-transform: uppercase;
 
@@ -775,7 +815,7 @@ body {
             }
 
             .name {
-              font-family: "futura-pt", "Futura PT", sans-serif;
+              font-family: Lato, sans-serif;
               font-size: 1.3em;
               text-transform: uppercase;
               color: $black;
@@ -791,7 +831,7 @@ body {
             }
 
             .price {
-              font-family: "futura-pt", "Futura PT", sans-serif;
+              font-family: Lato, sans-serif;
               text-transform: uppercase;
               padding-bottom: 0.5em;
             }
@@ -854,7 +894,7 @@ body {
         clear: both;
         padding: 0;
         margin-bottom: 0.4em;
-        font-family: "futura-pt", "Futura PT", sans-serif;
+        font-family: Lato, sans-serif;
         text-transform: uppercase;
         color: $gray;
         font-size: 0.8em;
@@ -876,7 +916,7 @@ body {
           display: inline;
           width: auto;
           float: right;
-          font-family: "futura-pt", "Futura PT", sans-serif;
+          font-family: Lato, sans-serif;
           text-transform: uppercase;
           padding-left: 0.3em;
           margin-left: 0;
@@ -918,16 +958,15 @@ body {
         a:focus {
           @include column(12,12);
           padding: 0.8em 1em 0.5em;
-          letter-spacing: 1.5px;
           background-color: $lighter-gray;
 
           .title {
             @include column(12,12);
             padding: 0;
             margin-bottom: 0;
-            font-weight: 500;
+            font-weight: bold;
             font-size: 0.9em;
-            font-family: "futura-pt", "Futura PT", sans-serif;
+            font-family: Lato, sans-serif;
             text-transform: uppercase;
             color: $dark-gray;
             white-space: nowrap;
@@ -940,10 +979,10 @@ body {
             padding: 0;
             font-size: 0.8em;
             line-height: 1.3em;
-            font-family: "futura-pt", "Futura PT", sans-serif;
+            font-family: Lato, sans-serif;
             text-transform: uppercase;
             color: $gray;
-            font-weight: 300;
+            font-weight: normal;
           }
 
           &:hover {
@@ -1057,7 +1096,7 @@ body {
         @include column(12,12);
         padding: 0.5em 1em 0.2em;
         margin: 0.5em 0 1em;
-        font-family: "adobe-caslon-pro", "Adobe Caslon Pro", serif;
+        font-family: Goudy, serif;
         background-color: $lighter-gray;
         color: $black;
         border: none;
@@ -1084,7 +1123,7 @@ body {
             .post-title {
               @include column(8,12);
               padding: 0;
-              font-family: "adobe-caslon-pro", "Adobe Caslon Pro", serif;
+              font-family: Goudy, serif;
               font-size: 1em;
               font-weight: normal;
               font-style: normal;
@@ -1109,7 +1148,7 @@ body {
             .post-date {
               @include column(4,12);
               padding: 0;
-              font-family: "adobe-caslon-pro", "Adobe Caslon Pro", serif;
+              font-family: Goudy, serif;
               font-size: 1em;
               font-weight: normal;
               font-style: normal;
@@ -1148,7 +1187,7 @@ body {
       background-color: $lighter-gray;
       padding: 0;
       margin: 0 0 0.2em;
-      font-family: "futura-pt", "Futura PT", sans-serif;
+      font-family: Lato, sans-serif;
       text-transform: uppercase;
       border-left: 0.2em solid $gray;
 
@@ -1168,7 +1207,7 @@ body {
   #footer {
     @include column(12);
     padding: 1em 0;
-    font-family: "futura-pt", "Futura PT", sans-serif;
+    font-family: Lato, sans-serif;
     text-transform: uppercase;
     overflow-x: hidden;
 
@@ -1184,6 +1223,11 @@ body {
       @include column(12,12);
       padding: 0;
       font-size: 0.9em;
+      color: $gray;
+
+      a {
+        color: $dark-gray;
+      }
     }
   }
 }
@@ -1207,11 +1251,11 @@ body {
       @include column(6,12);
       padding: 0;
       text-align: right;
-      font-size: 1em;
+      font-size: 1.1em;
       list-style-type: none;
-      padding-top: 0.1em;
+      padding-top: 0.2em;
       margin-bottom: 0.2em;
-      font-family: "futura-pt", "Futura PT", sans-serif;
+      font-family: Lato, sans-serif;
       text-transform: uppercase;
 
       .nav-item {
@@ -1401,7 +1445,7 @@ body {
 					@include pull(-1,10);
 					padding: 0 0 1em 1em;
 					float: right;
-          font-family: "futura-pt", "Futura PT", sans-serif;
+          font-family: Lato, sans-serif;
           text-transform: uppercase;
           text-align: left;
           color: $red;
@@ -1508,7 +1552,7 @@ body {
 					@include pull(-2,8);
 					padding: 0 0 1em 1em;
 					float: right;
-          font-family: "futura-pt", "Futura PT", sans-serif;
+          font-family: Lato, sans-serif;
           text-transform: uppercase;
           text-align: left;
           color: $red;
