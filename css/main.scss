@@ -108,11 +108,11 @@ h6 {
 }
 
 h1 {
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: $dark-gray;
 }
 
@@ -135,7 +135,11 @@ h6 {
 p {
   // @include column(12,12);
   // padding: 0;
-  line-height: 1.4em;
+  line-height: 1.5em;
+
+  .smallcaps {
+    font-variant: small-caps;
+  }
 }
 
 blockquote {
@@ -647,7 +651,6 @@ body {
           padding: 0 0 0.1em;
           margin: 0;
           font-weight: bold;
-          font-size: 1.8em;
 
           a {
             color: $black;
