@@ -12,7 +12,7 @@ caption: "Clean Tomcats were a rare sight. This one was shined up for the VF-11 
 
 The tails were designed for pre-HD video (and I was in a time crunch) so they were all drawn at a very low (720x480) resolution. Even worse, I hadn't learned how to use Illustrator yet, so instead I used Photoshop, practically ensuring they weren't resolution independent. 
 
-Since the tails were nowhere near print quality, I went ahead and upscaled all of them so they'd look good on a 10" x 8" page at 300dpi. This took some time and effort, but fortunately I had power and screen space to spare on my brand new 17" Aluminum PowerBook G4 -- my very first Mac laptop.
+Since the tails were nowhere near print quality, I went ahead and upscaled them all so they'd look good on a 10" x 8" page at 300dpi. This took some time and effort, but fortunately I had power and screen space to spare on my brand new 17" Aluminum PowerBook G4 -- my very first Mac laptop.
 
 After going to all the trouble, I looked for something else to do with them. They found their way onto a t-shirt at one point. Right around that time I moved into a house with two big empty walls in the entryway, so I threw up some gallery lighting, ordered a bunch of nice frames from Amazon, had some prints made at my local Kinko's, and (with the help of Bob and Mark) started hanging them on the wall. The final result filled the empty space on my wall (if not in my heart) and they even looked kind of nice.
 
