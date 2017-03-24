@@ -18,15 +18,13 @@ After going to all the trouble, I looked for something else to do with them. The
 
 In 2010 I got married, moved out of that house and put the frames into storage (all 36 of them). We haven't had a great spot to display them since then (they take up a *lot* of space) so they're still sitting in boxes. I stole six of the frames to make a family calendar this year, which I'll describe in another post as soon as I can figure out how to do it without sharing my family's next four month agenda.
 
-Even so, it seemed a shame for all that artwork to go to waste. So I did what anyone does with a bunch of random art in 2017: I made a sticker pack. The most fun part (to me anyway) is that I put a blank tail in there so you can combine it with other stickers and make your own silly squadron designs. 
+Even so, it seemed a shame for all that artwork to go to waste. So I did what anyone does with a bunch of random art in 2017: I made a [sticker pack](https://appsto.re/us/j8oyhb.i?app=messages). The most fun part (to me anyway) is that I put a blank tail in there so you can combine it with other stickers and make your own silly squadron designs. 
 
 {% include image.html class="wide" title="Decisions, Decisions" file="user-tails.jpg" %}
 
-Go wild. Animated sticker markings can be pleasantly (and unpleasantly) surreal.
-
 It's not that I think there's a huge market for Tomcat tail stickers out there. It's really more that it's stunningly easy to make a sticker pack, so I figured I'd give it a shot. I priced the pack at $2 because that seemed like the right thing to do, and because I don't expect a lot of people buy it. Nobody who's reading this *needs* a Tomcat tail sticker pack. After all, they're just iMessage stickers. 
 
-That being said, if you've ever liked anything I've made and wanted to give back a bit, I'd appreciate it if you bought the pack and sent a few random tails to your friends. Someone out there (probably in Japan) might find a Tomcat Tails sticker pack ridiculously useful or joy-inducing. Knowing that would make me happy too.
+That being said, if you've ever liked anything I've made and wanted to give back a bit, I'd appreciate it if you [bought the pack](https://appsto.re/us/j8oyhb.i?app=messages) and sent a few random tails to your friends. Someone out there (probably in Japan) might find a Tomcat Tails sticker pack ridiculously useful or joy-inducing. Knowing that would make me happy too.
 
 I miss the Tomcat. Flying it was like driving a classic Mustang -- you might not have A/C, power steering, power windows, or FM radio, but with a hell of a lot of acceleration available to could still be a whole lot of fun to drive. Maybe it's not the kind of car you'd necessarily want to take to the grocery store every day, but if you did, you'd sure look cool doing it. The Super Hornet is more like a brand-new SUV. Comfy, great cruise control, lots of room to carry stuff, but not exactly fast and not quite as glamorous.
 
