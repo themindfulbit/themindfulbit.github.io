@@ -20,7 +20,7 @@ After going to all the trouble, I looked for something else to do with them. The
 
 In 2010 I got married, moved out of that house and put the frames into storage (all 36 of them). We haven't had a great spot to display them since then (they take up a *lot* of space) so they're still sitting in boxes. I stole six of the frames to make a family calendar this year, which I'll describe in another post as soon as I can figure out how to do it without sharing my family's next four month agenda.
 
-Even so, it seemed a shame for all that artwork to go to waste. So I did what anyone does with a bunch of random art in 2017: I made a [sticker pack](https://appsto.re/us/j8oyhb.i?app=messages). The most fun part (to me anyway) is that I put a blank tail in there so you can combine it with other stickers and make your own silly squadron designs. 
+Even so, it seemed a shame for all that artwork to go to waste. So I did what anyone does with a bunch of random art in 2017: I made a [sticker pack](https://appsto.re/us/j8oyhb.i?app=messages). The most fun part (to me anyway) is the blank tail. I thought people might want to combine it with other stickers and make their own silly squadron designs. Animated GIFs are particularly surreal.
 
 {% include image.html class="wide" title="Decisions, Decisions" file="user-tails.jpg" %}
 
