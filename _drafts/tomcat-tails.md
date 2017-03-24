@@ -8,7 +8,7 @@ banner: ripper-tomcat-farewell.jpg
 caption: "Clean Tomcats were a rare sight. This one was shined up for the VF-11 Tomcat Farewell ceremony in April 2005."
 ---
 
-<span class="smallcaps">Way back in 2004,</span> I was dual-hatted as an instructor at the [LSO School](https://www.youtube.com/watch?v=mV1XDihwJ1s) and [VF-101](https://en.wikipedia.org/wiki/VFA-101), the Tomcat training squadron. I'd drawn up a bunch of Tomcat tail graphics for a squadron video project and one day aviation photographer [Erik Hildebrandt](http://www.vulturesrow.com/) asked if he could include some of them in a [book](https://www.amazon.com/Anytime-Baby-Hail-Farewell-Tomcat/dp/0967404053/ref=sr_1_1?ie=UTF8&qid=1489007186&sr=8-1&keywords=anytime+baby) celebrating the Tomcat's retirement. 
+<span class="smallcaps">Way back in 2004,</span> I was dual-hatted as an instructor at the [LSO School][1] and [VF-101][2], the Tomcat training squadron. I'd drawn up a bunch of Tomcat tail graphics for a squadron video project and one day aviation photographer [Erik Hildebrandt][3] asked if he could include some of them in a [book][4] celebrating the Tomcat's retirement. 
 
 The tails were designed for pre-HD video (and I was in a time crunch) so they were all drawn at a very low (720x480) resolution. Even worse, I hadn't learned how to use Illustrator yet, so instead I used Photoshop, practically ensuring they weren't resolution independent. Since the tails were nowhere near print quality, I upscaled all of them so they'd look good on a 10" x 8" page at 300dpi. This took some time and effort, but fortunately I had a lot of screen space and power available on my brand new 17" Aluminum PowerBook G4 -- my very first Mac laptop.
 
@@ -32,3 +32,8 @@ I miss the Tomcat. Flying it was like driving a classic Mustang -- you might not
 
 
 Everything changes, even airplanes. But stickers are totally forever.
+
+[1]:	https://www.youtube.com/watch?v=mV1XDihwJ1s
+[2]:	https://en.wikipedia.org/wiki/VFA-101
+[3]:	http://www.vulturesrow.com/
+[4]:	https://www.amazon.com/Anytime-Baby-Hail-Farewell-Tomcat/dp/0967404053/ref=sr_1_1?ie=UTF8&qid=1489007186&sr=8-1&keywords=anytime+baby
