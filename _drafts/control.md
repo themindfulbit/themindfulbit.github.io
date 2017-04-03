@@ -6,6 +6,7 @@ categories: [ideas]
 tags: [stoicism, Epictetus]
 banner: control-room.jpg
 caption: 'Reactor Control Room, 1959. [NASA](https://flic.kr/p/fqoNGT)'
+---
 
 Every day offers a chance for a new beginning. I'd like to start this one with some excerpts from the *Enchiridion* of [Epictetus](https://en.wikipedia.org/wiki/Epictetus). 
 
