@@ -1254,9 +1254,9 @@ body {
       @include column(6,12);
       padding: 0;
       text-align: right;
-      font-size: 1.1em;
+      font-size: 1em;
       list-style-type: none;
-      padding-top: 0.2em;
+      padding-top: 0.3em;
       margin-bottom: 0.2em;
       font-family: Lato, sans-serif;
       text-transform: uppercase;
@@ -1328,141 +1328,6 @@ body {
 
 /* @media screen and (min-width: 640px) */
 @media screen and (min-width: 40em) {
-
-  body #container {
-    @include column(10,12);
-    @include push(1,12);
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  body #content {
-    overflow-x: visible;
-
-    .post {
-      .post-banner {
-        @include column(12,10);
-        @include push(-1,10);
-        padding-left: 0;
-        padding-right: 0;
-      }
-
-      .post-content {
-
-        aside,
-        .image-block,
-        .video {
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-
-          &.wide {
-            @include column(12,10);
-            @include push(-1,10);
-            padding-left: 0;
-            padding-right: 0;
-          }
-
-          &.left {
-            @include column(5,10);
-            @include push(-1,10);
-            padding: 0 1em 0 0;
-            border: none;
-
-            &.small {
-              @include column(3,10);
-              @include push(-1,10);
-              padding: 0 1em 0 0;
-
-              &.inset {
-                @include push(0);
-                padding: 0 1em 0 0;
-              }
-            }
-          }
-
-          &.right {
-            @include column(5,10);
-            @include pull(-1,10);
-            padding: 0 0 0 1em;
-            float: right;
-            border: none;
-
-            &.small {
-              @include column(3,10);
-              @include pull(-1,10);
-              padding: 0 0 0 1em;
-              float: right;
-
-              &.inset {
-                @include pull(0);
-                padding: 0 0 0 1em;
-              }
-            }
-          }
-
-          &.left .caption,
-          &.right .caption {
-            @include column(5,5);
-            @include push(0);
-            margin-top: 0.5em;
-            padding: 0.3em 0 0 0.3em;
-            // border-left: 0.2em solid $light-gray;
-            text-align: left;
-          }
-
-          blockquote {
-            font-size: 1.3em;
-            line-height: 1.5em;
-
-            cite {
-              font-size: 0.7em;
-              line-height: 1.2em;
-            }
-          }
-        }
-
-        .image-set {
-          @include column(12,10);
-          @include push(-1,10);
-          padding: 0;
-
-          .image-block {
-
-
-            .caption {
-              @include column(12,12);
-              margin-left: 0;
-              padding: 0.7em 0 0.5em;
-            }
-          }
-
-          .image-triplet {
-            @include column(4,12);
-            padding: 0 0.3em;
-          }
-        }
-
-        .has-pullquote:before {
-        	content: attr(data-pullquote);
-          @include column(5,10);
-					@include pull(-1,10);
-					padding: 0 0 1em 1em;
-					float: right;
-          font-family: Lato, sans-serif;
-          text-transform: uppercase;
-          text-align: left;
-          color: $red;
-          font-size: 1.5em;
-          line-height: 1.3em;
-          font-weight: 500;
-        }
-      }
-    }
-  }
-}
-
-/* @media screen and (min-width: 800px) */
-@media screen and (min-width: 50em) {
 
   body #container {
     @include column(8,12);
