@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Control'
 author: [Erik Hess]
 categories: [ideas]
