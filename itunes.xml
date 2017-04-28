@@ -25,7 +25,6 @@ redirect_from: "/feed"
     <description>An occasional audio companion to Erik Hess's blog, The Mindful Bit.</description>
     <itunes:block>no</itunes:block>
     <itunes:category text="Technology" />
-    <admin:generatorAgent rdf:resource="{{ site.url }}" />
     <ttl>30</ttl>
 
     {% assign audioPosts = site.posts | where: 'layout', 'episode' %}
