@@ -1,0 +1,47 @@
+---
+layout: null
+redirect_from: "/feed"
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+
+    <title>The Mindful Bit</title>
+    <link>{{ site.url }}</link>
+    <language>en-us</language>
+    <copyright>Erik Hess</copyright>
+    <itunes:owner>
+      <itunes:email>erik@themindfulbit.com</itunes:email>
+      <itunes:name>The Mindful Bit</itunes:name>
+    </itunes:owner>
+    <itunes:author>Erik Hess</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{ site.url }}/assets/img/tmb-itunes-icon.png" />
+    <itunes:keywords>TheMindfulBit,Technology,Design,Ideas,Productivity,Development</itunes:keywords>
+    <itunes:subtitle>An occasional audio companion to The Mindful Bit.</itunes:subtitle>
+    <itunes:summary>An occasional audio companion to Erik Hess's blog, The Mindful Bit.</itunes:summary>
+    <description>An occasional audio companion to Erik Hess's blog, The Mindful Bit.</description>
+    <itunes:block>no</itunes:block>
+    <itunes:category text="Technology" />
+    <admin:generatorAgent rdf:resource="{{ site.url }}" />
+    <ttl>30</ttl>
+
+    {% assign audioPosts = site.posts | where: 'layout', 'episode' %}
+
+    {% for post in audioPosts %}
+      <item>
+        <title>{{ post.episode | xml_escape }} - {{ post.title | xml_escape }}</title>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <description>{% if post.banner %}<![CDATA[<figure><img src="{{ site.url}}/assets/img/{{ post.banner }}"/><figcaption>{{ post.caption | markdownify }}</figcaption></figure>]]>{% endif %}{{ post.content | xml_escape }}{% if post.link %}<![CDATA[<div class="permalink"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">///</a></div>]]>{% endif %}</description>
+        <itunes:author>{% if post.author %}{{ post.author | array_to_sentence_string }}{% else %}Difficult Podcasts{% endif %}</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <itunes:image href="{{ site.url }}/assets/img/tmb-itunes-icon.png" />
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/{{ post.simplecast }}.mp3" length="0" type="audio/mpeg" />
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

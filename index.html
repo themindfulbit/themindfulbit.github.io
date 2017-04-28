@@ -49,6 +49,19 @@ layout: default
         </p>
       </div>
 
+      {% if post.layout == "episode" %}
+      <div class="show-meta">
+        <div class="player">
+          <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.com/e/{{ post.simplecast }}?style=dark' width='100%'></iframe>
+        </div>
+        <div class="links">
+          <a href="{{ site.url }}/itunes.xml">Subscribe</a> ::
+          <a href="https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/{{ post.simplecast }}.mp3" title="Seasons {{ title }}">Download</a> ::
+          <a href="{{ post.twitter }}">Twitter-friendly Link</a>
+        </div>
+      </div>
+      {% endif %}
+
       <div class="post-content">
         {{ post.content }}
 

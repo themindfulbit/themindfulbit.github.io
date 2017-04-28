@@ -680,6 +680,16 @@ body {
         }
       }
 
+      .show-meta {
+        @include column(12,12);
+        padding: 0;
+        margin-bottom: 0.5em;
+
+        .player {
+          padding-bottom: 0.5em;
+        }
+      }
+
       .post-content,
       .page-content {
         @include column(12,12);
