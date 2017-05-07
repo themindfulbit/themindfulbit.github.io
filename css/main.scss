@@ -39,43 +39,6 @@ $green: #519548;
 $dark-blue: #274E65;
 $blue: #4386af;
 
-// Fonts
-
-@font-face {
-  font-family: Lato;
-  src: url(../assets/fonts/LatoLatin-Semibold.woff2);
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Lato;
-  src: url(../assets/fonts/LatoLatin-Regular.woff2);
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: Goudy;
-  src: url(../assets/fonts/GoudyStM-webfont.woff);
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Goudy;
-  src: url(../assets/fonts/GoudyStM-Italic-webfont.woff);
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: Inconsolata;
-  src: url(../assets/fonts/inconsolata.woff2);
-  font-weight: normal;
-  font-style: normal;
-}
 
 // General Styling
 
@@ -83,11 +46,11 @@ h1,
 h2 {
   @include column(12,12);
   padding: 0;
-	font-family: Lato, sans-serif;
+	font-family: futura-pt, sans-serif;
 	text-transform: uppercase;
 	margin-top: 0.3em;
 	margin-bottom: 0.5em;
-	font-weight: bold;
+	font-weight: 500;
 	line-height: 1.1em;
 }
 
@@ -97,7 +60,7 @@ h5,
 h6 {
   @include column(12,12);
   padding: 0;
-  font-family: Goudy, serif;
+  font-family: adobe-caslon-pro, serif;
   text-transform: capitalize;
   font-style: italic;
   margin-top: 0.3em;
@@ -222,7 +185,7 @@ table {
   }
 
   th {
-    font-family: Lato, sans-serif;
+    font-family: futura-pt, sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     color: $dark-gray;
@@ -499,7 +462,7 @@ hr:after {
 
 .logo {
   font-weight: normal;
-  font-family: Goudy, serif;
+  font-family: adobe-caslon-pro, serif;
   text-transform: none;
   letter-spacing: normal;
 
@@ -516,7 +479,8 @@ hr:after {
 
   .slash {
     position: relative;
-    top: -0.08em;
+    top: 0.01em;
+    font-size: 1.1em;
   }
 
   .slash-r {
@@ -544,10 +508,10 @@ hr:after {
 
 .slashes {
   font-weight: normal;
-  font-family: Goudy, serif;
+  font-family: adobe-caslon-pro, serif;
   text-transform: none;
   position: relative;
-  top: -0.05em;
+  // top: -0.05em;
 
   .slash-r {
     font-weight: bold;
@@ -574,7 +538,7 @@ body {
   padding: 0 1em;
   background-color: $ecru;
   color: $black;
-  font-family: Goudy, serif;
+  font-family: adobe-caslon-pro, serif;
 
   #header {
   	@include column(12);
@@ -650,7 +614,7 @@ body {
           @include column(12,12);
           padding: 0 0 0.1em;
           margin: 0;
-          font-weight: bold;
+          font-weight: 500;
 
           a {
             color: $black;
@@ -670,7 +634,7 @@ body {
           @include column(12,12);
           padding: 0;
           color: $gray;
-          font-family: Lato, sans-serif;
+          font-family: futura-pt, sans-serif;
           font-size: 0.9em;
           text-transform: uppercase;
 
@@ -828,7 +792,7 @@ body {
             }
 
             .name {
-              font-family: Lato, sans-serif;
+              font-family: futura-pt, sans-serif;
               font-size: 1.3em;
               text-transform: uppercase;
               color: $black;
@@ -844,7 +808,7 @@ body {
             }
 
             .price {
-              font-family: Lato, sans-serif;
+              font-family: futura-pt, sans-serif;
               text-transform: uppercase;
               padding-bottom: 0.5em;
             }
@@ -907,7 +871,7 @@ body {
         clear: both;
         padding: 0;
         margin-bottom: 0.4em;
-        font-family: Lato, sans-serif;
+        font-family: futura-pt, sans-serif;
         text-transform: uppercase;
         color: $gray;
         font-size: 0.8em;
@@ -929,7 +893,7 @@ body {
           display: inline;
           width: auto;
           float: right;
-          font-family: Lato, sans-serif;
+          font-family: futura-pt, sans-serif;
           text-transform: uppercase;
           padding-left: 0.3em;
           margin-left: 0;
@@ -977,9 +941,9 @@ body {
             @include column(12,12);
             padding: 0;
             margin-bottom: 0;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 0.9em;
-            font-family: Lato, sans-serif;
+            font-family: futura-pt, sans-serif;
             text-transform: uppercase;
             color: $dark-gray;
             white-space: nowrap;
@@ -992,7 +956,7 @@ body {
             padding: 0;
             font-size: 0.8em;
             line-height: 1.3em;
-            font-family: Lato, sans-serif;
+            font-family: futura-pt, sans-serif;
             text-transform: uppercase;
             color: $gray;
             font-weight: normal;
@@ -1109,7 +1073,7 @@ body {
         @include column(12,12);
         padding: 0.5em 1em 0.2em;
         margin: 0.5em 0 1em;
-        font-family: Goudy, serif;
+        font-family: adobe-caslon-pro, serif;
         background-color: $lighter-gray;
         color: $black;
         border: none;
@@ -1136,7 +1100,7 @@ body {
             .post-title {
               @include column(8,12);
               padding: 0;
-              font-family: Goudy, serif;
+              font-family: adobe-caslon-pro, serif;
               font-size: 1em;
               font-weight: normal;
               font-style: normal;
@@ -1161,7 +1125,7 @@ body {
             .post-date {
               @include column(4,12);
               padding: 0;
-              font-family: Goudy, serif;
+              font-family: adobe-caslon-pro, serif;
               font-size: 1em;
               font-weight: normal;
               font-style: normal;
@@ -1200,7 +1164,7 @@ body {
       background-color: $lighter-gray;
       padding: 0;
       margin: 0 0 0.2em;
-      font-family: Lato, sans-serif;
+      font-family: futura-pt, sans-serif;
       text-transform: uppercase;
       border-left: 0.2em solid $gray;
 
@@ -1220,7 +1184,7 @@ body {
   #footer {
     @include column(12);
     padding: 1em 0;
-    font-family: Lato, sans-serif;
+    font-family: futura-pt, sans-serif;
     text-transform: uppercase;
     overflow-x: hidden;
 
@@ -1268,7 +1232,7 @@ body {
       list-style-type: none;
       padding-top: 0.3em;
       margin-bottom: 0.2em;
-      font-family: Lato, sans-serif;
+      font-family: futura-pt, sans-serif;
       text-transform: uppercase;
 
       .nav-item {
@@ -1430,7 +1394,7 @@ body {
 					@include pull(-2,8);
 					padding: 0 0 1em 1em;
 					float: right;
-          font-family: Lato, sans-serif;
+          font-family: futura-pt, sans-serif;
           text-transform: uppercase;
           text-align: left;
           color: $red;
