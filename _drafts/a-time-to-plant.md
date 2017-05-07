@@ -12,7 +12,7 @@ Today I'm thrilled to announce the first episode of [Seasons of Obsession](http:
 
 {% include image.html file="seasons-1024.jpg" class="right small" title="Seasons of Obsession" %}
 
-As those who follow his [outstanding blog](http://with.thegra.in) already know, Potatowire reads deeply and broadly. His considered and informed perspective is refreshing and though-provoking. I look forward to helping him find a louder voice and a wider audience.
+As those who follow his [outstanding blog](http://with.thegra.in) already know, Potatowire reads deeply and broadly. His considered and informed perspective is refreshing and thought-provoking. I look forward to helping him find a louder voice and a wider audience.
 
 Seasons will cover new ground for us. Rather than focus on any single topic, we're taking an audio journey through our individual obsessions of the week. You're just as likely to hear a discussion on literature or philosophy as technology or design. What we discuss will be influenced by what we read, hear, see, and think when we record. Like me, you'll get a great preview by reading Potatowire's blog that week. 
 
