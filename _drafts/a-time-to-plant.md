@@ -2,7 +2,7 @@
 layout: post
 title: 'A Time to Plant, A Time to Reap'
 author: [Erik Hess]
-categories: [design]
+categories: [news]
 tags: [podcasting, difficult podcasts, seasons of obsession]
 banner: autumn-bridge.jpg
 caption: 'Railroad Viaduct in Keene, New Hampshire, 1975. [Keene Public Library](https://flic.kr/p/8R2zpm)'
