@@ -28,7 +28,7 @@ For the first time, we're also asking for your [help](http://difficultpodcasts.f
 
 ### A Personal Note
 
-First off, I'd like to thank the folks who have made this all possible. In addition to my friends and tireless partners Potatowire, [Bob VanderClay](http://twitter.com/takitapart), and [Mark VanderClay](http://twitter.com/djtaco), I would never have started podcasting without the trust, support, and friendship of [Gabe Weatherhead](http://macdrifter.com). His show with [Jeff Hunsberger](http://technologynotes.net/), [Nerds on Draft](http://www.nerdsondraft.com/), is still the one I look forward to the most each week. 
+First off, I'd like to thank the folks who have made this possible. In addition to my friends and tireless partners Potatowire, [Bob VanderClay](http://twitter.com/takitapart), and [Mark VanderClay](http://twitter.com/djtaco), I would never have started podcasting without the trust, support, and friendship of [Gabe Weatherhead](http://macdrifter.com). His show with [Jeff Hunsberger](http://technologynotes.net/), [Nerds on Draft](http://www.nerdsondraft.com/), is still the one I look forward to the most each week. 
 
 Finally, I'd like to thank *you*. 
 
