@@ -24,7 +24,7 @@ We're also happy to announce a new home for our assorted audio projects: [Diffic
 
 In addition to Seasons, the DP site has links to our retired shows: Technical Difficulties, Dawn Patrol, and high90cast. Before too long I expect them to be joined by new quirky creations of unknown longevity. We have some ideas, but talking about ideas before they're fully cooked is a mistake we'd like to avoid repeating.
 
-For the first time, we're also asking for your [help](http://difficultpodcasts.fm/support). Maybe not right away, but whenever you feel ready. When that happens, we've got a spot for you in our Slack channel and maybe more if we can build some momentum.
+For the first time, we're also asking for your [help](http://difficultpodcasts.fm/support). Maybe not right away, but whenever you feel ready. When that happens, we've got a spot for you in our Slack channel and maybe a bit more if we can build some momentum.
 
 ### A Personal Note
 
