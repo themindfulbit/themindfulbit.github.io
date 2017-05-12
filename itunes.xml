@@ -18,7 +18,7 @@ redirect_from: "/feed"
     </itunes:owner>
     <itunes:author>Erik Hess</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="{{ site.url }}/assets/img/tmb-itunes-icon.png" />
+    <itunes:image href="{{ site.url }}/assets/img/tmb-dp-itunes.jpg" />
     <itunes:keywords>TheMindfulBit,Technology,Design,Ideas,Productivity,Development</itunes:keywords>
     <itunes:subtitle>An occasional audio companion to The Mindful Bit.</itunes:subtitle>
     <itunes:summary>An occasional audio companion to Erik Hess's blog, The Mindful Bit.</itunes:summary>
@@ -38,7 +38,7 @@ redirect_from: "/feed"
         <itunes:explicit>no</itunes:explicit>
         <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <itunes:image href="{{ site.url }}/assets/img/tmb-itunes-icon.png" />
+        <itunes:image href="{{ site.url }}/assets/img/tmb-dp-itunes.jpg" />
         <enclosure url="https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/{{ post.simplecast }}.mp3" length="0" type="audio/mpeg" />
       </item>
       {% endif %}
