@@ -27,9 +27,8 @@ redirect_from: "/feed"
     <itunes:category text="Technology" />
     <ttl>30</ttl>
 
-    {% assign audioPosts = site.posts | where: 'layout', 'episode' %}
-
-    {% for post in audioPosts %}
+    {% for post in site.posts %}
+    {% if post.layout contains 'episode' %}
       <item>
         <title>{{ post.episode | xml_escape }} - {{ post.title | xml_escape }}</title>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
@@ -42,6 +41,7 @@ redirect_from: "/feed"
         <itunes:image href="{{ site.url }}/assets/img/tmb-itunes-icon.png" />
         <enclosure url="https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/{{ post.simplecast }}.mp3" length="0" type="audio/mpeg" />
       </item>
+      {% endif %}
     {% endfor %}
   </channel>
 </rss>

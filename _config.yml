@@ -21,3 +21,6 @@ timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  footnote_backlink: '&#8617;&#65038;'

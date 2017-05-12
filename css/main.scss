@@ -855,6 +855,13 @@ body {
             border: none;
           }
         }
+
+        .footnotes {
+          @include column(12,12);
+          padding: 1em 0;
+          border-top: 1px dotted $light-gray;
+          font-size: 0.7em;
+        }
       }
     }
 
