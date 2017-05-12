@@ -30,7 +30,7 @@ redirect_from: "/feed"
     {% for post in site.posts %}
     {% if post.layout contains 'episode' %}
       <item>
-        <title>{{ post.episode | xml_escape }} - {{ post.title | xml_escape }}</title>
+        <title>{{ post.episode | xml_escape }}: {{ post.title | xml_escape }}</title>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         <description>{% if post.banner %}<![CDATA[<figure><img src="{{ site.url}}/assets/img/{{ post.banner }}"/><figcaption>{{ post.caption | markdownify }}</figcaption></figure>]]>{% endif %}{{ post.content | xml_escape }}{% if post.link %}<![CDATA[<div class="permalink"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">///</a></div>]]>{% endif %}</description>
