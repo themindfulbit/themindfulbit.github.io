@@ -33,12 +33,12 @@ redirect_from: "/itunes"
         <title>{{ post.episode | xml_escape }}: {{ post.title | xml_escape }}</title>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        <description>{% if post.banner %}<![CDATA[<figure><img src="{{ site.url}}/assets/img/{{ post.banner }}"/><figcaption>{{ post.caption | markdownify }}</figcaption></figure>]]>{% endif %}{{ post.content | xml_escape }}{% if post.link %}<![CDATA[<div class="permalink"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">///</a></div>]]>{% endif %}<![CDATA[<figure><img src="{{ site.url}}/assets/img/itunes.jpg?utm_source=RSS&utm_medium=RSS&utm_campaign=Podcast"/><figcaption>]]></description>
+        <description>{% if post.banner %}<![CDATA[<figure><img src="{{ site.url}}/assets/img/{{ post.banner }}"/><figcaption>{{ post.caption | markdownify }}</figcaption></figure>]]>{% endif %}{{ post.content | xml_escape }}{% if post.link %}<![CDATA[<div class="permalink"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">///</a></div>]]>{% endif %}<![CDATA[<figure><img src="{{ site.url}}/assets/theme/itunes.jpg?utm_source=RSS&utm_medium=RSS&utm_campaign=Podcast"/><figcaption>]]></description>
         <itunes:author>{% if post.author %}{{ post.author | array_to_sentence_string }}{% else %}Difficult Podcasts{% endif %}</itunes:author>
         <itunes:explicit>no</itunes:explicit>
         <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <itunes:image href="{{ site.url }}/assets/theme/tmb-dp-itunes.jpg" />
+        <itunes:image href="{{ site.url }}/assets/img/tmb-dp-itunes.jpg" />
         <enclosure url="https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/{{ post.simplecast }}.mp3" length="0" type="audio/mpeg" />
       </item>
       {% endif %}
