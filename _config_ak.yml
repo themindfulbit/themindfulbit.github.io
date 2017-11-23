@@ -15,7 +15,7 @@ url: "http://akimbokimono.com:4000" # the base hostname & protocol for your site
 twitter_username: themindfulbit
 github_username:  themindfulbit
 permalink: /blog/:title
-gems: [jekyll-paginate, jekyll-gist, rouge, jekyll-redirect-from, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-gist, rouge, jekyll-redirect-from, jekyll-sitemap]
 include: ["_pages"]
 
 # Build settings
